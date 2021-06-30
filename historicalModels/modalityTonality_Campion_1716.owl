@@ -47,64 +47,6 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#has24modes -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#has24modes">
-        <rdfs:comment>12 majeurs + 12 mineurs = 24 modes
-
-Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possible. Sur chacun de ces semi-tons on établit un mode mineur et un mode majeur; par consequent il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; c&apos;est ce qu&apos;on peut voir dans les deux planches ci-jointes, où je les ay mis d&apos;ordre, avec la maniere d&apos;armer les clefs pour chaque octave.</rdfs:comment>
-        <rdfs:label>vingt-quatre modes, ou octaves</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#has24modes"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>12 majeurs + 12 mineurs = 24 modes
-
-Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possible. Sur chacun de ces semi-tons on établit un mode mineur et un mode majeur; par consequent il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; c&apos;est ce qu&apos;on peut voir dans les deux planches ci-jointes, où je les ay mis d&apos;ordre, avec la maniere d&apos;armer les clefs pour chaque octave.</owl:annotatedTarget>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dc:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols">
-        <rdfs:comment>Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
-
-&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</rdfs:comment>
-        <rdfs:label>modes des Bémols</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
-
-&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</owl:annotatedTarget>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dc:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:comment>Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
-
-&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</rdfs:comment>
-        <rdfs:label>modes de Diézes</rdfs:label>
-    </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-        <owl:annotatedTarget>Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
-
-&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</owl:annotatedTarget>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dc:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele">
@@ -170,11 +112,31 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#mode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#mode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#concepts"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
+        <rdfs:comment>déduit des exemples musicaux dans Campion 1716
+
+Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
+
+&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</rdfs:comment>
+        <rdfs:label>modes des Bémols</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>modes des Bémols</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dc:source>
+    </owl:Axiom>
     
 
 
@@ -182,89 +144,31 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
+        <dc:source>exemples musicaux, 5</dc:source>
+        <rdfs:comment>déduit des exemples musicaux, dans Campion 1716
+
+
+Les modes avec des dièses et des bémols ne sont pas utilisés autrefois: 
+
+&quot;On ne composoit autrefois en France de la Musique, que sur des modes ordinaires, et on traitoit de cromatique et de bizarre, celle que l&apos;on faisoit sur des modes de Diézes, et des Bémols.&quot;</rdfs:comment>
+        <rdfs:label>modes de Diézes</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>modes de Diézes</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</dc:source>
+    </owl:Axiom>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#concepts"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#has24modes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#mode"/>
         <rdfs:comment>il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; (p.6)</rdfs:comment>
         <rdfs:label>mode, octave</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#has24modes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dc:source>
-        <rdfs:comment>Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possible. Sur chacun de ces semi-tons on établit un mode mineur et un mode majeur; par consequent il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; c&apos;est ce qu&apos;on peut voir dans les deux planches ci-jointes, où je les ay mis d&apos;ordre, avec la maniere d&apos;armer les clefs pour chaque octave.</rdfs:comment>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -280,35 +184,6 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt"/>
@@ -316,45 +191,6 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
         </rdfs:subClassOf>
         <rdfs:label>Ton Majeur</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source>exemples musicaux, 5</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source>exemples musicaux, 5</dc:source>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
@@ -378,7 +214,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -386,7 +224,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLa">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -394,7 +234,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurLab">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -402,7 +244,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMi">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -412,6 +256,7 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurMib">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -419,7 +264,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurRe">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -427,7 +274,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSi">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -435,7 +284,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSib">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -443,7 +294,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurSol">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -452,6 +305,7 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -461,43 +315,16 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Ton Mineur</rdfs:label>
     </owl:Class>
@@ -505,55 +332,12 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeBemols"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source>exemples musicaux, 5</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe"/>
+            </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source>planche &quot;ton mineur&quot;</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+"/>
-                    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeDeDiezes"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source>exemples musicaux, 5</dc:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
@@ -561,13 +345,26 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
         <owl:annotatedTarget>Ton Mineur</owl:annotatedTarget>
         <dc:source>planche: exemples musicaux</dc:source>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#hasModeModele"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:source>planche Ton mineur</dc:source>
+    </owl:Axiom>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -576,6 +373,7 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurLa">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
         <rdfs:label>la mineur</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -590,7 +388,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMi">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -598,7 +398,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurMib">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -607,6 +409,7 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurRe">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -614,7 +417,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSi">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -622,7 +427,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSib">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -630,7 +437,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -638,16 +447,43 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeBemol"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTranspositions -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTranspositions">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeGenre"/>
+        <rdfs:comment>12 majeurs + 12 mineurs = 24 modes
+
+&quot;Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possible. Sur chacun de ces semi-tons on établit un mode mineur et un mode majeur; par consequent il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; c&apos;est ce qu&apos;on peut voir dans les deux planches ci-jointes, où je les ay mis d&apos;ordre, avec la maniere d&apos;armer les clefs pour chaque octave.&quot; (p.6)</rdfs:comment>
+        <rdfs:label>vingt-quatre modes</rdfs:label>
+        <rdfs:label>vingt-quatre octaves</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>12 majeurs + 12 mineurs = 24 modes
+
+&quot;Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possible. Sur chacun de ces semi-tons on établit un mode mineur et un mode majeur; par consequent il y a dans la Musique vingt-quatre modes, ou octaves. Sçavoir, douze mineures, et douze majeures; c&apos;est ce qu&apos;on peut voir dans les deux planches ci-jointes, où je les ay mis d&apos;ordre, avec la maniere d&apos;armer les clefs pour chaque octave.&quot; (p.6)</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dc:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>vingt-quatre modes</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dc:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>vingt-quatre octaves</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</dc:source>
+    </owl:Axiom>
     
 
 
@@ -683,14 +519,6 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#transposition -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#transposition">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#concepts"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#ut -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#ut">
@@ -720,6 +548,7 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurFa+">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -727,7 +556,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+ -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeurUt+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMajeur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -735,7 +566,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+ -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurFa+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -743,7 +576,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+ -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurSol+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
@@ -751,7 +586,9 @@ Par cet arrangement, il y a douze semi-tons, sur lesquels la Musique est possibl
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+ -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineurUt+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeDeDiese"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeMineur"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1716#modeTransposition"/>
     </owl:Class>
     
 
