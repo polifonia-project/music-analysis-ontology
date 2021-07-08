@@ -1949,40 +1949,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAdjoint">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasAtLower5th"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasAtUpper5th"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAdjoint"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasAtLower5th"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasAtUpper5th"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <dc:source>40-41</dc:source>
-    </owl:Axiom>
     
 
 
@@ -1990,6 +1957,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAtLower2nd">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</dc:source>
     </owl:Class>
     
 
@@ -1998,6 +1966,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAtLower3rd">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</dc:source>
     </owl:Class>
     
 
@@ -2014,6 +1983,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAtUpper2nd">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</dc:source>
     </owl:Class>
     
 
@@ -2022,6 +1992,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAtUpper3rd">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</dc:source>
     </owl:Class>
     
 
@@ -2046,7 +2017,10 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeDistant">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-        <rdfs:comment>CGN: je suppose que ce concept est déduit de la fin du paragraphe. Mais il me paraît trop imprécis. Il n&apos;est du reste pas utilisé dans l&apos;ontologie.</rdfs:comment>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dc:source>
+        <rdfs:comment>CGN: je suppose que ce concept est déduit de la fin du paragraphe (art 43). Mais il me paraît trop imprécis. Il n&apos;est du reste pas utilisé dans l&apos;ontologie.
+
+NS: tu as raison. J&apos;ai crée cette classe dans le cas où d&apos;Alembert précise un peu plus dans d&apos;autres passages. Si je ne trouve pas plus de précision sur ce point, je supprimerai ce concept. Qu&apos;en penses-tu ?</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeDistant"/>
@@ -2100,7 +2074,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2184,7 +2158,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2347,7 +2321,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</dc:source>
@@ -2508,7 +2482,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</dc:source>
@@ -3274,7 +3248,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3292,7 +3266,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3427,7 +3401,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <rdfs:comment>deduced from article 81, mode majeur ut</rdfs:comment>
@@ -3466,7 +3440,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredModeAdjoint"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <rdfs:comment>deduced from article 242, mode majeur ut</rdfs:comment>
@@ -3921,17 +3895,40 @@ La nature ne donne pas la ut mi ( la mineur est pourtant le modèle du mineur.
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
-        <rdfs:comment>CGN: je ne trouve pas d&apos;allusion à ce concept au § 43 ?</rdfs:comment>
+        <dc:source>81- 82</dc:source>
+        <rdfs:comment>CGN: je ne trouve pas d&apos;allusion à ce concept au § 43 ?
+NS: voir article 81-82, mais d&apos;Alembert n&apos;utilise pas le terme &quot;mode relatif&quot;. Pour lui, les (modes) relatifs signifie les tons voisins.</rdfs:comment>
+        <rdfs:comment>la classe &quot;modeRelatif&quot; dénote les tonalités majeure et mineure ayant une armure commune. (do majeur et la mineur)
+
+&quot; 82. Ainsi le seul mode majeur d&apos;ut en produit cinq autres qui lui sont plus ou moins relatifs.
+On voit de plus, que quand on passe d&apos;un mode à un autre par l&apos;intervalle de tierce, soit en montant, soit en descendant, comme d&apos;ut à mi, ou d&apos;ut à la; de mi à ut, ou de la à ut, le mode, de majeur devient mineur, ou mineur devient majeur.&quot; (article 82)
+
+
+Attention: 
+D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons voisins, à savoir sol majeur, fa majeur, la mineur, ré mineur et mi mineur pour ut majeur. (art 81.)</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelative"/>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dc:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeRelatif"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>la classe &quot;modeRelatif&quot; dénote les tonalités majeure et mineure ayant une armure commune. (do majeur et la mineur)
+
+&quot; 82. Ainsi le seul mode majeur d&apos;ut en produit cinq autres qui lui sont plus ou moins relatifs.
+On voit de plus, que quand on passe d&apos;un mode à un autre par l&apos;intervalle de tierce, soit en montant, soit en descendant, comme d&apos;ut à mi, ou d&apos;ut à la; de mi à ut, ou de la à ut, le mode, de majeur devient mineur, ou mineur devient majeur.&quot; (article 82)
+
+
+Attention: 
+D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons voisins, à savoir sol majeur, fa majeur, la mineur, ré mineur et mi mineur pour ut majeur. (art 81.)</owl:annotatedTarget>
+        <dc:source>81-82</dc:source>
     </owl:Axiom>
     
 
@@ -4635,6 +4632,24 @@ Pour d&apos;Alembert, &quot;transposer&quot; dénote l&apos;&apos;ensemble du pr
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonVoisin -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonVoisin">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal"/>
+        <dc:source>(mode) relatif</dc:source>
+        <rdfs:comment>La classe Tons voisins = Closely related key.
+
+D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons voisins, à savoir sol majeur, fa majeur, la mineur, ré mineur et mi mineur pour ut majeur. (art 81.)</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonVoisin"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/source"/>
+        <owl:annotatedTarget>(mode) relatif</owl:annotatedTarget>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</dc:source>
+    </owl:Axiom>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonique -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonique">
@@ -4936,6 +4951,20 @@ Pour d&apos;Alembert, &quot;transposer&quot; dénote l&apos;&apos;ensemble du pr
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAdjoint">
+        <rdfs:comment>&quot;81. On voit de plus combien il y a de liaison entre le genre mineur la ut mi, et le genre majeur ut mi sol, puisque ces genres ont deux sons communs ut, mi.
+
+La même chose s&apos;observe dans les adjoints de ces deux modes, c&apos;est-à-dire (Article 40) dans les modes de leurs quintes en montant, et en descendant; car les adjoints d&apos;ut, sçavoir fa et sol, donnent les deux genres ou modes majeurs fa la ut, et sol si ré, et les adjoints de la, sçavoir ré et mi, donnent les deux modes mineurs ré fa la, et mi sol si, qui ont chacun deux sons communs avec les deux précédens.
+
+82. Ainsi le seul mode majeur d&apos;ut en produit cinq autres qui lui sont plus ou moins relatifs.&quot;</rdfs:comment>
+        <rdfs:comment>&quot;Le mode d&apos;ut (fa, ut, sol) est appellé mode principal par rapport aux modes de ses deux quintes, qui sont appellées ses deux adjoints.&quot; (art 40)</rdfs:comment>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeAdjoint"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>&quot;Le mode d&apos;ut (fa, ut, sol) est appellé mode principal par rapport aux modes de ses deux quintes, qui sont appellées ses deux adjoints.&quot; (art 40)</owl:annotatedTarget>
+        <dc:source>40-41</dc:source>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modePrincipal">
         <rdfs:label>modePrincipal</rdfs:label>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</dc:source>
