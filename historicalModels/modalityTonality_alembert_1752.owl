@@ -252,6 +252,12 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredChord -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferredChord">
@@ -418,14 +424,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#UtReMiFaSolLaSiUt -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#UtReMiFaSolLaSiUt">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelle"/>
-    </owl:Class>
     
 
 
@@ -662,7 +660,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#generates"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>&quot;basse fondamentale fa, ut, sol [...] peut être regardée comme représentant le mode d&apos;ut.&quot;
@@ -677,7 +675,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#generates"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</dc:source>
@@ -774,13 +772,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#generates"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#sous-entendDans"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>chant primitif</rdfs:label>
@@ -791,18 +783,7 @@
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#generates"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#basseFondametale_SolUtSolUtFaUtFa"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#sous-entendDans"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dc:source>
@@ -902,21 +883,6 @@
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</dc:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa">
-        <owl:equivalentClass rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatonique"/>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
-        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dc:source>
     </owl:Axiom>
     
 
@@ -1131,7 +1097,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#dominante -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#dominante">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fonction"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonalQuality"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#isRepresentedByScaleDegree"/>
@@ -1156,6 +1122,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#dominanteTonique -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#dominanteTonique">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#dominante"/>
         <rdfs:comment>&quot;La dominante tonique, qui est la quinte au-dessus de la tonique, et qui, soit dans le mode majeur, soit dans le mineur, porte toûjours un accord de septiéme composé [-158-] d&apos;une tierce majeure suivie de deux tierces mineures.&quot;
 (art 242-5)</rdfs:comment>
         <rdfs:label>dominante tonique</rdfs:label>
@@ -1218,7 +1185,6 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes">
-        <owl:equivalentClass rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gammeOrdinaire"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelle"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1245,13 +1211,8 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>L&apos;échelle est générée par deux modes à distance de quinte (et non pas l&apos;inverse)</rdfs:comment>
+        <rdfs:label>gamme ordinaire</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
-        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gammeOrdinaire"/>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</dc:source>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
@@ -1296,12 +1257,18 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</dc:source>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>gamme ordinaire</owl:annotatedTarget>
+        <rdfs:comment>Nahoko, peux-tu indiquer une source pour cela ?</rdfs:comment>
+    </owl:Axiom>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelle"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1323,13 +1290,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         </rdfs:subClassOf>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#chantDiatoniqueSiUtReMiFaSolLa"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
-        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1340,7 +1301,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</dc:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1351,7 +1312,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</dc:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrec"/>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueGrecque"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
@@ -1368,14 +1329,6 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fa">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hauteur"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fonction -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fonction">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#degre"/>
     </owl:Class>
     
 
@@ -1588,26 +1541,6 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gamme -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gamme"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gammeOrdinaire -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gammeOrdinaire">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gamme"/>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#echelleDiatoniqueDesModernes"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
-        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#gammeOrdinaire"/>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</dc:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#harmonic -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#harmonic"/>
@@ -1762,7 +1695,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#isJustifiedBy"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#interval_5th_SolRe"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#interval_Octave_FaFa"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</dc:source>
@@ -1773,7 +1706,7 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#isJustifiedBy"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#interval_Octave_FaFa"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#interval_5th_SolRe"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</dc:source>
@@ -2070,66 +2003,6 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurFa"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLa"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurMi"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurRe"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSi"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSol"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurUt"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurFa+"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLa+Sib"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurRe+Mib"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasParadigmaticBasseFondamentale"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#basseFondametale_4_1_5"/>
             </owl:Restriction>
@@ -2315,116 +2188,6 @@ Ces termes, tonique, dominante et sous-dominante, dénotent ainsi en quelque sor
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</dc:source>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236</dc:source>
         <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurFa"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLa"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurMi"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurRe"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSi"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSol"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurUt"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurFa+"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLa+Sib"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasMostUsedTransposition"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurRe+Mib"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>234, note mmm</dc:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
@@ -4462,7 +4225,7 @@ Pour d&apos;Alembert, &quot;transposer&quot; dénote l&apos;&apos;ensemble du pr
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#sous-dominante -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#sous-dominante">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fonction"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonalQuality"/>
     </owl:Class>
     
 
@@ -4743,10 +4506,16 @@ D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonalQuality -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonalQuality"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonique -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonique">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#fonction"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#tonalQuality"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -4928,7 +4697,24 @@ D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSol+Lab">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeTransposition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLab"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurSol+Lab"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurLab"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:source>234, mmm</dc:source>
+    </owl:Axiom>
     
 
 
@@ -4946,7 +4732,24 @@ D&apos;Alembert utilise l&apos;adjectif &quot;relatif&quot; pour dénoter 5 tons
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurUt+Reb">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeur"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeTransposition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurReb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurUt+Reb"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#hasPreferedEnharmony"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_d_Alembert#modeMajeurReb"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:source>234, mmm</dc:source>
+    </owl:Axiom>
     
 
 
