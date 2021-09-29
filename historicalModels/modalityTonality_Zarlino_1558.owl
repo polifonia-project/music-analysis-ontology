@@ -3647,6 +3647,12 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Ambitus -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Ambitus"/>
@@ -15214,6 +15220,14 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Flat -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Flat">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#FourthSpecies -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#FourthSpecies">
@@ -18555,6 +18569,14 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Natural -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Natural">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#NaturalSoftness -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#NaturalSoftness">
@@ -18906,6 +18928,14 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA-">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClass"/>
     </owl:Class>
     
@@ -19643,6 +19673,14 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Sharp -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Sharp">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#SimpleMode -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#SimpleMode">
@@ -19828,7 +19866,9 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
 
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#SystemAlteration -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#SystemAlteration"/>
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#SystemAlteration">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#Alteration"/>
+    </owl:Class>
     
 
 
@@ -19975,7 +20015,7 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-2 -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-2">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA-"/>
     </owl:Class>
     
 
@@ -19983,7 +20023,7 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-3 -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-3">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA-"/>
     </owl:Class>
     
 
@@ -19991,7 +20031,7 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-4 -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-4">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA-"/>
     </owl:Class>
     
 
@@ -19999,7 +20039,7 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-5 -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#a-5">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#PitchClassA-"/>
     </owl:Class>
     
 
