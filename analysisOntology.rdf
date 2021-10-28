@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/analysisOntology#"
+     xml:base="http://modality-tonality.huma-num.fr/analysisOntology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#"
+     xmlns:modalityTonality_Zarlino="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#">
+    <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysisOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAnalysis -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalysis"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyst -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyst"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasGenre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasInstrumentation -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasInstrumentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasInterpretation -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasInterpretation"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasModalTonalAttribution -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasModalTonalAttribution"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTheoreticalModel -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTheoreticalModel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasComposer -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasComposer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasContext -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasContext"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasCopyright -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasCopyright">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasDate -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFileFormat -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFileFormat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFileName -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFileName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFilePath -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFilePath">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasGenre -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasGenre"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasIRI -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasIRI">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasId -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasURL -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasURL">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasXMLId -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasXMLId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#isMachineAnalysis -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#isMachineAnalysis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Analysis -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Analysis"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Analyst -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Analyst"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Antiphon -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Antiphon">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Canticle -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Canticle">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Composer -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Composer"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Genre -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Hymn -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Hymn">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Introit -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Introit">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Madrigal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Madrigal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Mass -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Mass">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Monophonic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Monophonic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Motet -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Motet">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Polyphonic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Polyphonic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Psalm -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Psalm">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Responsory -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Responsory">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Sequence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Sequence">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Work -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Work">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

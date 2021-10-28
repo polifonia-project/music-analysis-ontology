@@ -59,10 +59,10 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasClavisSignatura -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasClef -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasClavisSignatura">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasClef">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     </owl:ObjectProperty>
     
 
@@ -92,10 +92,10 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     </owl:ObjectProperty>
     
 
@@ -163,10 +163,10 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     </owl:ObjectProperty>
     
 
@@ -200,12 +200,6 @@
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasTrias">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasTrias"/>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
     
 
 
@@ -276,6 +270,12 @@
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClavis -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClavis"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     
 
 
@@ -366,7 +366,7 @@
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasSystemAlteration -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasSystemAlteration">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     </owl:ObjectProperty>
     
 
@@ -533,6 +533,14 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#quintusHasClef -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#quintusHasClef">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasAmbitus -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasAmbitus">
@@ -573,10 +581,10 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura -->
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#clavisSignatura"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#hasClef"/>
     </owl:ObjectProperty>
     
 
@@ -709,15 +717,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthenticPolyphonicA">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -727,11 +736,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -793,11 +802,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -813,11 +822,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -934,16 +943,17 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthenticPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -975,7 +985,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1035,11 +1045,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1097,7 +1107,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1170,16 +1180,17 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthenticPolyphonicE">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1249,11 +1260,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1337,6 +1348,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthenticPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1364,7 +1376,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1518,7 +1530,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1578,15 +1590,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagalPolyphonicA">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g4"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1606,7 +1619,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1666,11 +1679,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g4"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1706,7 +1719,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -1786,15 +1799,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagalPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1814,7 +1828,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1880,11 +1894,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -1920,7 +1934,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2013,10 +2027,11 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagalPolyphonicDLowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2062,7 +2077,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2109,6 +2124,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagalPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2136,7 +2152,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2240,7 +2256,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2336,8 +2352,7 @@
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticMode"/>
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#Mode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasOctaveDivision"/>
@@ -2456,6 +2471,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicB-">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2605,15 +2621,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicC">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -2633,7 +2650,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2651,7 +2668,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2699,11 +2716,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#tenorHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -2738,7 +2755,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2771,7 +2788,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -2829,6 +2846,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2978,6 +2996,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2993,7 +3012,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3011,7 +3030,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3091,7 +3110,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3124,7 +3143,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3193,6 +3212,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicFLowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3386,6 +3406,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthenticPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3594,15 +3615,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicC">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -3622,7 +3644,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3682,11 +3704,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -3721,7 +3743,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3802,6 +3824,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicC_LowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -3828,7 +3851,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3919,7 +3942,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -3977,6 +4000,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4004,7 +4028,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4107,7 +4131,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4176,6 +4200,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicDLowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4358,6 +4383,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4373,7 +4399,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4391,7 +4417,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4471,7 +4497,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4504,7 +4530,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4574,6 +4600,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagalPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#CModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4601,7 +4628,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4699,7 +4726,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -4822,6 +4849,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthenticPolyphonicC">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4987,6 +5015,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthenticPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -5001,7 +5030,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5019,7 +5048,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5088,7 +5117,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5121,7 +5150,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5179,6 +5208,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthenticPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5194,7 +5224,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5212,7 +5242,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5292,7 +5322,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5325,7 +5355,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5428,6 +5458,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagalPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -5442,7 +5473,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5460,7 +5491,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5528,7 +5559,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5561,7 +5592,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -5619,6 +5650,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagalPolyphonicE">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5733,6 +5765,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagalPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5932,6 +5965,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagalPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#DModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5947,7 +5981,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5965,7 +5999,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6045,7 +6079,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6078,7 +6112,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6218,6 +6252,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthenticPolyphonicA">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6233,7 +6268,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6251,7 +6286,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6331,7 +6366,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6364,7 +6399,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6433,6 +6468,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthenticPolyphonicALowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6448,7 +6484,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6466,7 +6502,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6547,7 +6583,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6580,7 +6616,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6649,6 +6685,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthenticPolyphonicE">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasFinalis"/>
@@ -6663,7 +6700,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6732,7 +6769,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6829,6 +6866,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagalPolyphonicA">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -6844,7 +6882,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6862,7 +6900,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6942,7 +6980,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -6975,7 +7013,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7044,6 +7082,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagalPolyphonicE">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModePlagal"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -7058,7 +7097,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7070,7 +7109,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7133,7 +7172,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_5"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7155,7 +7194,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7202,6 +7241,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagalPolyphonicEHigherOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#EModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModePlagal"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -7216,7 +7256,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7234,7 +7274,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7298,7 +7338,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7331,7 +7371,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7441,6 +7481,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModeAuthenticPolyphonicB-">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7456,7 +7497,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7474,7 +7515,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7554,7 +7595,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7587,7 +7628,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7656,6 +7697,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModeAuthenticPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -7670,7 +7712,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7688,7 +7730,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7756,7 +7798,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7789,7 +7831,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -7886,6 +7928,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModePlagalPolyphonicB-">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -7901,7 +7944,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7919,7 +7962,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7993,7 +8036,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8026,7 +8069,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8084,6 +8127,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModePlagalPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#FModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModePlagal"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -8098,7 +8142,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8116,7 +8160,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8184,7 +8228,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8217,7 +8261,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8337,6 +8381,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthenticPolyphonicC">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8352,7 +8397,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8370,7 +8415,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8450,7 +8495,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8483,7 +8528,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8552,6 +8597,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthenticPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8719,6 +8765,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthenticPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModeAuthentic"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasAmbitus"/>
@@ -8733,7 +8780,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8751,7 +8798,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -8819,7 +8866,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8852,7 +8899,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -8950,6 +8997,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicA">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8977,7 +9025,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9080,7 +9128,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9149,6 +9197,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicC">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9164,7 +9213,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9182,7 +9231,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9262,7 +9311,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_3"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9295,7 +9344,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_2"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9364,6 +9413,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicCLowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9391,7 +9441,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9443,7 +9493,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9567,6 +9617,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicD">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9594,7 +9645,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9702,7 +9753,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9773,6 +9824,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicDLowerOctave">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9800,7 +9852,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -9901,7 +9953,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -9961,6 +10013,7 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicF">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#TransposedMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -10110,15 +10163,16 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagalPolyphonicG">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#GModePlagal"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode"/>
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g5"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -10138,7 +10192,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10198,11 +10252,11 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#c_1"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClavisSignatura"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#cantusHasClef"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#g5"/>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -10238,7 +10292,7 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClavisSignatura"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#bassusHasClef"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#f_4"/>
             </owl:Restriction>
         </owl:annotatedTarget>
@@ -10929,8 +10983,8 @@
     <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalPolyphonicMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#Mode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PlagalMode"/>
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#altusHasOctaveDivision"/>
@@ -11000,6 +11054,150 @@
         </owl:annotatedTarget>
         <rdfs:comment>deduced from 35-48</rdfs:comment>
     </owl:Axiom>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicAMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicCMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicDMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicEMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicFMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGMode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGMode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGMode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#PolyphonicGMode"/>
+    </owl:Class>
     
 
 
