@@ -6219,6 +6219,24 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PerfectCadence"/>
+        <dc:source>1558, 3, 53</dc:source>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PerfectCadence"/>
+        <dc:source>1558, 3, 53</dc:source>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA">
@@ -6607,24 +6625,6 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceStep">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence"/>
-        <dc:source>1558, 3, 53</dc:source>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence_3_1 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence_3_1">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PerfectCadence"/>
-        <dc:source>1558, 3, 53</dc:source>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence_6_8 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence_6_8">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PerfectCadence"/>
         <dc:source>1558, 3, 53</dc:source>
     </owl:Class>
     
@@ -19812,14 +19812,6 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#g_2">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Clef"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF+ -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF+">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceStep"/>
     </owl:Class>
     
 

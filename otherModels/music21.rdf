@@ -98,6 +98,12 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/music21#Interval -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Interval"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/music21#Note -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Note"/>
