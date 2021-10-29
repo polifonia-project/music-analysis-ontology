@@ -288,10 +288,17 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadenceOn -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadenceOn">
         <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
+        <rdfs:comment>this has to be replaced by has cadence</rdfs:comment>
     </owl:ObjectProperty>
     
 
