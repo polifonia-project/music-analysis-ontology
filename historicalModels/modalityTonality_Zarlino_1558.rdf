@@ -72,6 +72,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAntepenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -88,6 +89,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -104,6 +106,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -165,6 +168,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAntepenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -181,6 +185,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -197,6 +202,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -214,6 +220,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAntepenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -230,6 +237,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -246,6 +254,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -688,6 +697,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAntepenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -704,6 +714,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -736,6 +747,7 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPenultima"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
