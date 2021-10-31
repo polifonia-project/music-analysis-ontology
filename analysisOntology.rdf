@@ -1,15 +1,31 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://modality-tonality.huma-num.fr/analysisOntology#"
      xml:base="http://modality-tonality.huma-num.fr/analysisOntology"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#"
-     xmlns:modalityTonality_Zarlino="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#">
+     xmlns:Zarl="http://modality-tonality.huma-num.fr/Zarlino_1558#"
+     xmlns:musi="http://modality-tonality.huma-num.fr/music21#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysisOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
     
 
 
@@ -362,6 +378,12 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Work">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#Note -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Note"/>
 </rdf:RDF>
 
 
