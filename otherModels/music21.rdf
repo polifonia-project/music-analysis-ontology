@@ -49,6 +49,14 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/music21#measureNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#measureNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/music21#name -->
 
     <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#name">
