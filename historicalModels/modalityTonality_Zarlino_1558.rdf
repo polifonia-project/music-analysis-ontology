@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius#"
-     xml:base="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius"
+<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/Zarlino_1558#"
+     xml:base="http://modality-tonality.huma-num.fr/Zarlino_1558"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,8 +8,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:Zarlino_1558="http://modality-tonality.huma-num.fr/Zarlino_1558#"
-     xmlns:modalityTonality_Zarlino="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Zarlino#">
+     xmlns:Zarlino_1558="http://modality-tonality.huma-num.fr/Zarlino_1558#">
     <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558">
         <owl:versionIRI rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558/1.0"/>
         <dc:author>Guillotel-Nothmann, Christophe</dc:author>
@@ -19975,35 +19974,35 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe">
-        <Zarlino_1558:altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasAmbitus_f3_a4"/>
-        <Zarlino_1558:altusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasClef_c3"/>
-        <Zarlino_1558:bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasAmbitus_f2_bb3"/>
-        <Zarlino_1558:bassusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasClef_f_4"/>
-        <Zarlino_1558:cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasAmbitus_c4_d5"/>
-        <Zarlino_1558:cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasClef_c1"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_bb2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_bb2_1"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_c3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_d3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_d3_1"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_f3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_g2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_g3"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasFinalis_g4"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasFinalis_g2"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasFinalis_b4"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasFinalis_d4"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasFinalis_g3"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altushasInitialTone_d4"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasInitialTone_g3"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantushasInitialTone_g4"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasInitialTone_d3"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorhasInitialTone_d4"/>
-        <Zarlino_1558:hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-"/>
-        <Zarlino_1558:quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasAmbitus_c3_f4"/>
-        <Zarlino_1558:quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasClef_c_4"/>
-        <Zarlino_1558:tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasAmbitus_c3_f4"/>
-        <Zarlino_1558:tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasClef_c4"/>
+        <altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasAmbitus_f3_a4"/>
+        <altusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasClef_c3"/>
+        <bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasAmbitus_f2_bb3"/>
+        <bassusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasClef_f_4"/>
+        <cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasAmbitus_c4_d5"/>
+        <cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasClef_c1"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_bb2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_bb2_1"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_c3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_d3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_d3_1"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_f3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_g2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasCadenceOn_g3"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altusHasFinalis_g4"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasFinalis_g2"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantusHasFinalis_b4"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasFinalis_d4"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasFinalis_g3"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_altushasInitialTone_d4"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_bassusHasInitialTone_g3"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantushasInitialTone_g4"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasInitialTone_d3"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorhasInitialTone_d4"/>
+        <hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-"/>
+        <quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasAmbitus_c3_f4"/>
+        <quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasClef_c_4"/>
+        <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasAmbitus_c3_f4"/>
+        <tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasClef_c4"/>
         <rdfs:comment>not in Zarlino 1558 (test case)</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -20492,16 +20491,16 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233 -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233">
-        <Zarlino_1558:altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasAmbitus_a3_b4"/>
-        <Zarlino_1558:bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasAmbitus_g2_a2"/>
-        <Zarlino_1558:cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasAmbitus_d4_d5"/>
-        <Zarlino_1558:cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasClef_g2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_d3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_g2"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasFinalis_g2"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasInitialTone_g3"/>
-        <Zarlino_1558:tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasAmbitus_e3_g4"/>
-        <Zarlino_1558:tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasClef_c3"/>
+        <altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasAmbitus_a3_b4"/>
+        <bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasAmbitus_g2_a2"/>
+        <cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasAmbitus_d4_d5"/>
+        <cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasClef_g2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_d3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_g2"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasFinalis_g2"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasInitialTone_g3"/>
+        <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasAmbitus_e3_g4"/>
+        <tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasClef_c3"/>
     </owl:NamedIndividual>
     
 
@@ -21457,41 +21456,41 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_fra_I&apos;altre_donne -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_fra_I&apos;altre_donne">
-        <Zarlino_1558:altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasAmbitus_e3_g4"/>
-        <Zarlino_1558:altusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasClef_c_3"/>
-        <Zarlino_1558:bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasAmbitus_f2_a3"/>
-        <Zarlino_1558:bassusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasClef_f4"/>
-        <Zarlino_1558:cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasAmbitus_c4_c5"/>
-        <Zarlino_1558:cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasClef_c_2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_a2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_4"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_1"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_3"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_4"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_5"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f2_2"/>
-        <Zarlino_1558:hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f3"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasFinalis_c3"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasFinalis_f2"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasFinalis_f4"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasFinalis_f3"/>
-        <Zarlino_1558:hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasFinalis_a3"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasInitialTone_c4"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasInitialTone_f2"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasInitialTone_f4"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasInitialTone_f3"/>
-        <Zarlino_1558:hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasInitialTone_a3"/>
-        <Zarlino_1558:hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-"/>
-        <Zarlino_1558:quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasAmbitus_bb2_d4"/>
-        <Zarlino_1558:quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasClef_f_3"/>
-        <Zarlino_1558:tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasAmbitus_c3_d4"/>
-        <Zarlino_1558:tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasClef_c_4"/>
+        <altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasAmbitus_e3_g4"/>
+        <altusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasClef_c_3"/>
+        <bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasAmbitus_f2_a3"/>
+        <bassusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasClef_f4"/>
+        <cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasAmbitus_c4_c5"/>
+        <cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasClef_c_2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_a2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_c3_4"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_1"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_3"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_4"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_d3_5"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f2_2"/>
+        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasCadenceOn_f3"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasFinalis_c3"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasFinalis_f2"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasFinalis_f4"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasFinalis_f3"/>
+        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasFinalis_a3"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_altusHasInitialTone_c4"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_bassusHasInitialTone_f2"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasInitialTone_f4"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasInitialTone_f3"/>
+        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasInitialTone_a3"/>
+        <hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-"/>
+        <quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasAmbitus_bb2_d4"/>
+        <quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasClef_f_3"/>
+        <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasAmbitus_c3_d4"/>
+        <tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasClef_c_4"/>
         <dc:source>https://www.cpdl.org/wiki/images/b/bd/12-quando_fra_l_altre_donne-2p_combined---0-score.pdf</dc:source>
     </owl:NamedIndividual>
     
