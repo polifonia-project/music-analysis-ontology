@@ -20488,119 +20488,6 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233">
-        <altusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasAmbitus_a3_b4"/>
-        <bassusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasAmbitus_g2_a2"/>
-        <cantusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasAmbitus_d4_d5"/>
-        <cantusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasClef_g2"/>
-        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_d3"/>
-        <hasCadenceOn rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_g2"/>
-        <hasFinalis rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasFinalis_g2"/>
-        <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasInitialTone_g3"/>
-        <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasAmbitus_e3_g4"/>
-        <tenorHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasClef_c3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasAmbitus_a3_b4 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasAmbitus_a3_b4">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasClef_g2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_altusHasClef_g2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g_2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasAmbitus_g2_a2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasAmbitus_g2_a2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasClef_f4 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_bassusHasClef_f4">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#f_4"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasAmbitus_d4_d5 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasAmbitus_d4_d5">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasClef_g2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_cantusHasClef_g2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g_2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_d3 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_d3">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#d3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_g2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasCadenceOn_g2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasFinalis_g2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasFinalis_g2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g2"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasInitialTone_g3 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_hasInitialTone_g3">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasAmbitus_e3_g4 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasAmbitus_e3_g4">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasClef_c3 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Terpsichore_233_tenorHasClef_c3">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c_3"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Tollite_hostias_Mass_of_the_eighteenth_Sunday_after_Pentecos -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Tollite_hostias_Mass_of_the_eighteenth_Sunday_after_Pentecos">
@@ -21291,14 +21178,6 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Zarlino_Si_bona_suscepimus_de_manu_Domini -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Zarlino_Si_bona_suscepimus_de_manu_Domini"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cadenceInstance -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cadenceInstance">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#e3"/>
-    </owl:NamedIndividual>
     
 
 
