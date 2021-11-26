@@ -2,7 +2,6 @@
 <rdf:RDF xmlns="http://modality-tonality.huma-num.fr/Zarlino_1558#"
      xml:base="http://modality-tonality.huma-num.fr/Zarlino_1558"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:1.0="http://modality-tonality.huma-num.fr/Zarlino_1558/1.0#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:shr="http://data-iremus.huma-num.fr/ns/sherlock#"
