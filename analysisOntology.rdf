@@ -6,8 +6,6 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:Zarl="http://modality-tonality.huma-num.fr/Zarlino_1558#"
-     xmlns:musi="http://modality-tonality.huma-num.fr/music21#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
     <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysisOntology">
@@ -25,110 +23,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasMode -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasMode">
-        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima -->
-
-    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima"/>
     
 
 
@@ -222,6 +116,14 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasContext -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasContext">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasGenre -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasGenre"/>
@@ -285,14 +187,6 @@
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasClef -->
 
     <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasClef">
-        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasContext -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasContext">
         <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
     </owl:DatatypeProperty>
     
@@ -401,6 +295,12 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTimeSignature -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTimeSignature"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTitle -->
 
     <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTitle">
@@ -465,276 +365,6 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Clef -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Clef">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialTone -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialTone">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Interval -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Interval">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Mode -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Text -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Text">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#Analysis -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Analysis"/>
@@ -763,25 +393,15 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Antiphon -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Antiphon">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Canticle -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Canticle">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#Composer -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Composer"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Context -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Context"/>
     
 
 
@@ -791,41 +411,9 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Hymn -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Hymn">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Introit -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Introit">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Madrigal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Madrigal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Mass -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Mass">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
     
 
 
@@ -833,14 +421,6 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Monophonic">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Motet -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Motet">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
     </owl:Class>
     
 
@@ -869,30 +449,6 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Psalm -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Psalm">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Responsory -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Responsory">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Sequence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Sequence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
@@ -912,148 +468,6 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
     </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Duration -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Duration">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Interval -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Interval">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Note -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Note">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Pitch -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Pitch">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#JosquinDesprez -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#JosquinDesprez">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Composer"/>
-        <hasName>Josquin Desprez</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#composer1 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#composer1">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Composer"/>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cipriano de Rore</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#genre1 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#genre1">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motet</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#part1 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#part1">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Part"/>
-        <hasAmbitus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4_F5</hasAmbitus>
-        <hasClef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</hasClef>
-        <hasFinalPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5</hasFinalPitch>
-        <hasKey rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasKey>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canto</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#part2 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#part2">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Part"/>
-        <hasAmbitus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3_C5</hasAmbitus>
-        <hasClef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</hasClef>
-        <hasFinalPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</hasFinalPitch>
-        <hasKey rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasKey>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#part3 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#part3">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Part"/>
-        <hasAmbitus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3_A4</hasAmbitus>
-        <hasClef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</hasClef>
-        <hasFinalPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</hasFinalPitch>
-        <hasKey rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasKey>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tenore</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#part4 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#part4">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Part"/>
-        <hasAmbitus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2_D4</hasAmbitus>
-        <hasClef rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</hasClef>
-        <hasFinalPitch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</hasFinalPitch>
-        <hasKey rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasKey>
-        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basso</hasName>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/analysisOntology#work1 -->
-
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#work1">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Work"/>
-        <hasComposer rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#composer1"/>
-        <hasGenre rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#genre1"/>
-        <hasPart rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#part1"/>
-        <hasPart rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#part2"/>
-        <hasPart rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#part3"/>
-        <hasPart rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#part4"/>
-        <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-        <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-        <hasNumberOfParts rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasNumberOfParts>
-        <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Donna ch&apos;ornata sete</hasTitle>
-        <hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/mei/Cipriano_de_Rore_-_Donna_ch&apos;ornata_sete.mei</hasURL>
-        <isQuotedIn>Zarlino 1558, 4, 19</isQuotedIn>
-    </owl:NamedIndividual>
 </rdf:RDF>
 
 
