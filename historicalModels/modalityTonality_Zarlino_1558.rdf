@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://modality-tonality.huma-num.fr/Zarlino_1558#"
      xml:base="http://modality-tonality.huma-num.fr/Zarlino_1558"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:1.0="http://modality-tonality.huma-num.fr/Zarlino_1558/1.0#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:shr="http://data-iremus.huma-num.fr/ns/sherlock#"
@@ -62,7 +63,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAmbitus"/>
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -158,7 +158,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAmbitus"/>
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -210,7 +209,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAmbitus"/>
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -305,7 +303,6 @@
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadenceOn -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadenceOn">
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
         <rdfs:comment>this has to be replaced by has cadence</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -332,7 +329,6 @@
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis">
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
         <rdfs:comment>structural voice patterns in cadences are ment here</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -354,9 +350,7 @@
 
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone">
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
     
 
 
@@ -689,7 +683,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus">
         <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasAmbitus"/>
-        <shr:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</shr:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
