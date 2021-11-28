@@ -845,12 +845,6 @@
     
 
 
-    <!-- http://data-iremus.huma-num.fr/ns/sherlock#Finalis -->
-
-    <owl:Class rdf:about="http://data-iremus.huma-num.fr/ns/sherlock#Finalis"/>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3 -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3">
@@ -14577,6 +14571,14 @@ and (hasIrregularCadenceOn some (not (f)))</rdfs:comment>
         <dc:source>1558, 4, 10</dc:source>
         <rdfs:label>fifth species 1</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence"/>
+    </owl:Class>
     
 
 
