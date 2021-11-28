@@ -328,6 +328,7 @@
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>both structural voice patterns in cadences AND the end of the work are ment here</rdfs:comment>
     </owl:ObjectProperty>
     
