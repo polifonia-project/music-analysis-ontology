@@ -390,6 +390,14 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasLowestNote -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasLowestNote"/>
@@ -512,14 +520,6 @@
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasRepercussio -->
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRepercussio"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration">
-        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasClef"/>
-    </owl:ObjectProperty>
     
 
 
@@ -2447,8 +2447,8 @@
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2869,34 +2869,59 @@
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D2_D3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalD"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PlagalPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D2_D3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D2_D3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:source>deduced from 1558, 4, 17, 27, 31</dc:source>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
@@ -2908,50 +2933,6 @@
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PlagalPolyphonicMode"/>
         <dc:source>1558, 4, 12</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <rdfs:comment>deduced from 1558, 4, 17, 27, 31</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#D2_D3"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <rdfs:comment>deduced from 1558, 4, 17, 27, 31</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <dc:source>deduced from 1558, 4, 17, 27, 31</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#AModePlagalPolyphonicD"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <rdfs:comment>deduced from 1558, 4, 17, 27, 31</rdfs:comment>
     </owl:Axiom>
     
 
@@ -3268,12 +3249,6 @@
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Adulation">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Subject"/>
     </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration"/>
     
 
 
@@ -4251,8 +4226,8 @@
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4384,8 +4359,8 @@
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5293,8 +5268,8 @@
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5430,8 +5405,8 @@
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6592,12 +6567,12 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_e-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyE-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6728,12 +6703,12 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_e-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyE-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7155,12 +7130,12 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_c+"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyC+"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_f+"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyF+"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7382,8 +7357,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7472,6 +7447,49 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#b-3"/>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#d3"/>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <rdfs:comment>deduced from 1558, 4, 18</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticG"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularInitialTone"/>
@@ -7553,56 +7571,13 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:annotatedTarget>
         <dc:source>deduced from 1558, 4, 18</dc:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticG"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#b-3"/>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#d3"/>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasIrregularCadenceOn"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:complementOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:annotatedTarget>
-        <rdfs:comment>deduced from 1558, 4, 18</rdfs:comment>
     </owl:Axiom>
     
 
@@ -7662,8 +7637,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7762,14 +7737,14 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticE"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_c+"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyC+"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_f+"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyF+"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>1558, 4, 17</dc:source>
@@ -7791,8 +7766,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_c+"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyC+"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source>1558, 3, 77 and 1558, 4, 17</dc:source>
@@ -7802,8 +7777,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_f+"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyF+"/>
             </owl:Restriction>
         </owl:annotatedTarget>
         <dc:source>1558, 3, 77 and 1558, 4, 17</dc:source>
@@ -7824,8 +7799,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:source>1558, 4, 17</dc:source>
@@ -8072,8 +8047,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8771,8 +8746,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -10066,8 +10041,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A4_A5"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
@@ -10099,8 +10074,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#A4_A5"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
@@ -10508,8 +10483,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisA3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -10647,8 +10622,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisA3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -13710,14 +13685,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Flat -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Flat">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FourthSpecies -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FourthSpecies">
@@ -13989,8 +13956,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -14128,8 +14095,8 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC3"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -15133,46 +15100,46 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneC4"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#e4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneE4"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneG3"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneG4"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#e4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -15266,46 +15233,46 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneC4"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#e4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneE4"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneG3"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularInitialTone"/>
-                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
+                                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialTone"/>
+                                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialToneG4"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisC4"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#c4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#e4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g3"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasRegularCadenceOn"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#g4"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasSystemAlteration"/>
-                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -17064,6 +17031,36 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Key -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyA- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyA-">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyE- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyE-">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Lamentation -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Lamentation">
@@ -17246,14 +17243,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#MovesToWeeping">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Natural -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Natural">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration"/>
     </owl:Class>
     
 
@@ -18414,14 +18403,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Sharp -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Sharp">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration"/>
-    </owl:Class>
-    
-
-
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence">
@@ -18609,38 +18590,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Sweetness">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Alteration"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_a- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_a-">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_e- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_e-">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration"/>
     </owl:Class>
     
 
@@ -19261,6 +19210,22 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyC+ -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyC+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyF+ -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyF+">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Key"/>
+    </owl:Class>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC+ -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC+">
@@ -19273,22 +19238,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF+">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_c+ -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_c+">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_f+ -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_f+">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration"/>
     </owl:Class>
     
 
@@ -19439,7 +19388,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_cantushasInitialTone_g4"/>
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasInitialTone_d3"/>
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorhasInitialTone_d4"/>
-        <hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-"/>
+        <hasKey rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-"/>
         <quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasAmbitus_c3_f4"/>
         <quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_quintusHasClef_c_4"/>
         <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_tenorHasAmbitus_c3_f4"/>
@@ -19622,9 +19571,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b- -->
 
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Gesualdo_DignareMeLaudareTe_hasSystemAlteration_b-"/>
     
 
 
@@ -20376,9 +20323,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b- -->
 
-    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SystemAlteration_b-"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-"/>
     
 
 
@@ -20806,7 +20751,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_cantusHasInitialTone_f4"/>
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasInitialTone_f3"/>
         <hasInitialTone rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasInitialTone_a3"/>
-        <hasSystemAlteration rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-"/>
+        <hasKey rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_hasSystemAlteration_b-"/>
         <quintusHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasAmbitus_bb2_d4"/>
         <quintusHasClef rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_quintusHasClef_f_3"/>
         <tenorHasAmbitus rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert_Quando_Fra_tenorHasAmbitus_c3_d4"/>
