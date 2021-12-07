@@ -382,9 +382,7 @@
 
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
     
 
 
