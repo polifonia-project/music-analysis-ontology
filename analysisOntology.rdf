@@ -213,6 +213,30 @@
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
 </TheoreticalModel>
 
+<TheoreticalModel rdf:about="#theoreticalmodel2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
+  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
+</TheoreticalModel>
+
+<TheoreticalModel rdf:about="#theoreticalmodel3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
+  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
+</TheoreticalModel>
+
+<TheoreticalModel rdf:about="#theoreticalmodel4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
+  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
+</TheoreticalModel>
+
+<TheoreticalModel rdf:about="#theoreticalmodel5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
+  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
+</TheoreticalModel>
+
 <Work rdf:about="#work1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasAnalysis rdf:resource="#analysis1"/>
@@ -330,6 +354,23 @@
   <Zarl:hasCadence rdf:resource="#cadence19"/>
   <Zarl:hasCadence rdf:resource="#cadence20"/>
   <Zarl:hasCadence rdf:resource="#cadence21"/>
+  <Zarl:hasInitialNote rdf:resource="#initialnote1"/>
+  <Zarl:hasInitialNote rdf:resource="#initialnote2"/>
+  <Zarl:hasInitialNote rdf:resource="#initialnote3"/>
+  <Zarl:hasInitialNote rdf:resource="#initialnote4"/>
+  <Zarl:hasInitialNote rdf:resource="#initialnote5"/>
+  <Zarl:hasKey rdf:resource="#key1"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass1"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass2"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass3"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass4"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass5"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass6"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass7"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass8"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass9"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass10"/>
+  <Zarl:hasPitchClass rdf:resource="#pitchclass11"/>
   <Zarl:tenorHasAmbitus rdf:resource="#ambitus3"/>
   <Zarl:tenorHasAmbitus rdf:resource="#ambitus4"/>
 </AnalyticalObservation>
@@ -338,11 +379,11 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasAnalyst rdf:resource="#analyst1"/>
   <hasAnalyticalObservation rdf:resource="#analyticalobservation1"/>
-  <hasTheoreticalModel rdf:resource="#theoreticalmodel2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-04</hasDate>
+  <hasTheoreticalModel rdf:resource="#theoreticalmodel6"/>
+  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-08</hasDate>
 </Analysis>
 
-<TheoreticalModel rdf:about="#theoreticalmodel2">
+<TheoreticalModel rdf:about="#theoreticalmodel6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
@@ -443,31 +484,28 @@
   <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
 </musi:Pitch>
 
-<Zarl:Cadence rdf:about="#cadence1">
+<Zarl:Key rdf:about="#key1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note7"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note6"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note2"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note1"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note3"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note5"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note4"/>
-</Zarl:Cadence>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
+</Zarl:Key>
+
+<Zarl:InitialNote rdf:about="#initialnote1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4"/>
+  <Zarl:hasNote rdf:resource="#note1"/>
+</Zarl:InitialNote>
 
 <musi:Note rdf:about="#note1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration1"/>
   <musi:pitch rdf:resource="#pitch11"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">128.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration1">
@@ -475,66 +513,90 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
+<Zarl:InitialNote rdf:about="#initialnote2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4"/>
+  <Zarl:hasNote rdf:resource="#note2"/>
+</Zarl:InitialNote>
+
 <musi:Note rdf:about="#note2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration2"/>
   <musi:pitch rdf:resource="#pitch12"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">140.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch12">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:InitialNote rdf:about="#initialnote3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
+  <Zarl:hasNote rdf:resource="#note3"/>
+</Zarl:InitialNote>
 
 <musi:Note rdf:about="#note3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration3"/>
   <musi:pitch rdf:resource="#pitch13"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">128.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration3">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:InitialNote rdf:about="#initialnote4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
+  <Zarl:hasNote rdf:resource="#note4"/>
+</Zarl:InitialNote>
 
 <musi:Note rdf:about="#note4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration4"/>
   <musi:pitch rdf:resource="#pitch14"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">132.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration4">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:InitialNote rdf:about="#initialnote5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
+  <Zarl:hasNote rdf:resource="#note5"/>
+</Zarl:InitialNote>
 
 <musi:Note rdf:about="#note5">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration5"/>
   <musi:pitch rdf:resource="#pitch15"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">136.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch15">
@@ -547,22 +609,88 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
+<Zarl:PitchClass rdf:about="#pitchclass1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB-"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass10">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Zarl:PitchClass>
+
+<Zarl:PitchClass rdf:about="#pitchclass11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</Zarl:PitchClass>
+
+<Zarl:Cadence rdf:about="#cadence1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note12"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note11"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note7"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note6"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note8"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note10"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note9"/>
+</Zarl:Cadence>
+
 <musi:Note rdf:about="#note6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration6"/>
   <musi:pitch rdf:resource="#pitch16"/>
   <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">132.0</musi:offset>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration6">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note7">
@@ -570,96 +698,84 @@
   <musi:duration rdf:resource="#duration7"/>
   <musi:pitch rdf:resource="#pitch17"/>
   <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">136.0</musi:offset>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration7">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note9"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note8"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note10"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note12"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note11"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration8"/>
   <musi:pitch rdf:resource="#pitch18"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">152.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration8">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration9"/>
   <musi:pitch rdf:resource="#pitch19"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration9">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration10"/>
   <musi:pitch rdf:resource="#pitch20"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">152.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration10">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note11">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration11"/>
   <musi:pitch rdf:resource="#pitch21"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration11">
@@ -671,13 +787,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration12"/>
   <musi:pitch rdf:resource="#pitch22"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">160.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration12">
@@ -685,25 +801,29 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
-<Zarl:Cadence rdf:about="#cadence3">
+<Zarl:Cadence rdf:about="#cadence2">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note13"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note14"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note13"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note15"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note17"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note16"/>
 </Zarl:Cadence>
 
 <musi:Note rdf:about="#note13">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration13"/>
   <musi:pitch rdf:resource="#pitch23"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">184.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration13">
@@ -711,25 +831,12 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
-<Zarl:Cadence rdf:about="#cadence4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note14"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note16"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note15"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note17"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note19"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note18"/>
-</Zarl:Cadence>
-
 <musi:Note rdf:about="#note14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration14"/>
   <musi:pitch rdf:resource="#pitch24"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">266.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch24">
@@ -739,38 +846,38 @@
 
 <musi:Duration rdf:about="#duration14">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration15"/>
   <musi:pitch rdf:resource="#pitch25"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">269.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch25">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration15">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note16">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration16"/>
   <musi:pitch rdf:resource="#pitch26"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">272.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch26">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration16">
@@ -782,133 +889,142 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration17"/>
   <musi:pitch rdf:resource="#pitch27"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">266.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch27">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration17">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note18"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration18"/>
   <musi:pitch rdf:resource="#pitch28"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">268.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch28">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration18">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note19"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note21"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note20"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note22"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note24"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note23"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration19"/>
   <musi:pitch rdf:resource="#pitch29"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">272.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration19">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note20"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note22"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note21"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note24"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note23"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration20"/>
   <musi:pitch rdf:resource="#pitch30"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">278.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration21"/>
   <musi:pitch rdf:resource="#pitch31"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">281.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration21">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration22"/>
   <musi:pitch rdf:resource="#pitch32"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">284.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration22">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note23">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration23"/>
   <musi:pitch rdf:resource="#pitch33"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">280.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration23">
@@ -920,16 +1036,118 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration24"/>
   <musi:pitch rdf:resource="#pitch34"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">284.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration24">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note25"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note27"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note26"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note29"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note28"/>
+</Zarl:Cadence>
+
+<musi:Note rdf:about="#note25">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration25"/>
+  <musi:pitch rdf:resource="#pitch35"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch35">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration25">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note26">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration26"/>
+  <musi:pitch rdf:resource="#pitch36"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch36">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration26">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note27">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration27"/>
+  <musi:pitch rdf:resource="#pitch37"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch37">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration27">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note28">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration28"/>
+  <musi:pitch rdf:resource="#pitch38"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch38">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration28">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note29">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration29"/>
+  <musi:pitch rdf:resource="#pitch39"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch39">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration29">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
@@ -939,115 +1157,25 @@
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note25"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note27"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note26"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note28"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note30"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note29"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note30"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note32"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note31"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note33"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note35"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note34"/>
 </Zarl:Cadence>
-
-<musi:Note rdf:about="#note25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration25"/>
-  <musi:pitch rdf:resource="#pitch35"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch35">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration26"/>
-  <musi:pitch rdf:resource="#pitch36"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch36">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration27"/>
-  <musi:pitch rdf:resource="#pitch37"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">328.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch37">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration28"/>
-  <musi:pitch rdf:resource="#pitch38"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch38">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration29"/>
-  <musi:pitch rdf:resource="#pitch39"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch39">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
 
 <musi:Note rdf:about="#note30">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration30"/>
   <musi:pitch rdf:resource="#pitch40"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">328.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration30">
@@ -1055,43 +1183,30 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
-<Zarl:Cadence rdf:about="#cadence7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasAntepenultima rdf:resource="#note34"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note36"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note35"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note31"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note33"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note32"/>
-</Zarl:Cadence>
-
 <musi:Note rdf:about="#note31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration31"/>
   <musi:pitch rdf:resource="#pitch41"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">370.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration31">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration32"/>
   <musi:pitch rdf:resource="#pitch42"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch42">
@@ -1101,51 +1216,51 @@
 
 <musi:Duration rdf:about="#duration32">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration33"/>
   <musi:pitch rdf:resource="#pitch43"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">376.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration33">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration34"/>
   <musi:pitch rdf:resource="#pitch44"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">370.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration34">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note35">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration35"/>
   <musi:pitch rdf:resource="#pitch45"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch45">
@@ -1158,69 +1273,66 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
+<Zarl:Cadence rdf:about="#cadence7">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasAntepenultima rdf:resource="#note39"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note41"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note40"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note36"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note38"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note37"/>
+</Zarl:Cadence>
+
 <musi:Note rdf:about="#note36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration36"/>
   <musi:pitch rdf:resource="#pitch46"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">376.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration36">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasAntepenultima rdf:resource="#note43"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note45"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note44"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note37"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note39"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note38"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note40"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note42"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note41"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration37"/>
   <musi:pitch rdf:resource="#pitch47"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch47">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration37">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note38">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration38"/>
   <musi:pitch rdf:resource="#pitch48"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">388.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration38">
@@ -1232,49 +1344,49 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration39"/>
   <musi:pitch rdf:resource="#pitch49"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration39">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration40"/>
   <musi:pitch rdf:resource="#pitch50"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch50">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration40">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note41">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration41"/>
   <musi:pitch rdf:resource="#pitch51"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">388.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch51">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration41">
@@ -1282,22 +1394,38 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
+<Zarl:Cadence rdf:about="#cadence8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasAntepenultima rdf:resource="#note48"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note50"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note49"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note42"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note44"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note43"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note45"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note47"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note46"/>
+</Zarl:Cadence>
+
 <musi:Note rdf:about="#note42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration42"/>
   <musi:pitch rdf:resource="#pitch52"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch52">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration42">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note43">
@@ -1305,77 +1433,66 @@
   <musi:duration rdf:resource="#duration43"/>
   <musi:pitch rdf:resource="#pitch53"/>
   <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">386.0</musi:offset>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch53">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration43">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration44"/>
   <musi:pitch rdf:resource="#pitch54"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">388.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration44">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration45"/>
   <musi:pitch rdf:resource="#pitch55"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration45">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note49"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note48"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note47"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note46"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note46">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration46"/>
   <musi:pitch rdf:resource="#pitch56"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">412.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration46">
@@ -1387,13 +1504,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration47"/>
   <musi:pitch rdf:resource="#pitch57"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">416.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration47">
@@ -1405,34 +1522,135 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration48"/>
   <musi:pitch rdf:resource="#pitch58"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">412.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration48">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note49">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration49"/>
   <musi:pitch rdf:resource="#pitch59"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">416.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration49">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note50">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration50"/>
+  <musi:pitch rdf:resource="#pitch60"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch60">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration50">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note54"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note53"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note52"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note51"/>
+</Zarl:Cadence>
+
+<musi:Note rdf:about="#note51">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration51"/>
+  <musi:pitch rdf:resource="#pitch61"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch61">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration51">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note52">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration52"/>
+  <musi:pitch rdf:resource="#pitch62"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch62">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration52">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note53">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration53"/>
+  <musi:pitch rdf:resource="#pitch63"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch63">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration53">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note54">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration54"/>
+  <musi:pitch rdf:resource="#pitch64"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch64">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration54">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
@@ -1442,177 +1660,74 @@
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note50"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note52"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note51"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note53"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note55"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note54"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note55"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note57"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note56"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note58"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note60"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note59"/>
 </Zarl:Cadence>
-
-<musi:Note rdf:about="#note50">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration50"/>
-  <musi:pitch rdf:resource="#pitch60"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">465.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch60">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration50">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration51"/>
-  <musi:pitch rdf:resource="#pitch61"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">470.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch61">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C#4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration52"/>
-  <musi:pitch rdf:resource="#pitch62"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">472.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration53"/>
-  <musi:pitch rdf:resource="#pitch63"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">467.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration54"/>
-  <musi:pitch rdf:resource="#pitch64"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">468.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
 
 <musi:Note rdf:about="#note55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration55"/>
   <musi:pitch rdf:resource="#pitch65"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">472.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch65">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration55">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence11">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note61"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note60"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note57"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note56"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note59"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note58"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration56"/>
   <musi:pitch rdf:resource="#pitch66"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">492.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C#4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration56">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration57"/>
   <musi:pitch rdf:resource="#pitch67"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">496.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration57">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration58"/>
   <musi:pitch rdf:resource="#pitch68"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">492.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch68">
@@ -1622,15 +1737,15 @@
 
 <musi:Duration rdf:about="#duration58">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration59"/>
   <musi:pitch rdf:resource="#pitch69"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">496.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch69">
@@ -1640,15 +1755,15 @@
 
 <musi:Duration rdf:about="#duration59">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note60">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration60"/>
   <musi:pitch rdf:resource="#pitch70"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">492.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch70">
@@ -1658,23 +1773,126 @@
 
 <musi:Duration rdf:about="#duration60">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note66"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note65"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note62"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note61"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note64"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note63"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note61">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration61"/>
   <musi:pitch rdf:resource="#pitch71"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">496.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch71">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration61">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note62">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration62"/>
+  <musi:pitch rdf:resource="#pitch72"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch72">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration62">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note63">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration63"/>
+  <musi:pitch rdf:resource="#pitch73"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch73">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration63">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note64">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration64"/>
+  <musi:pitch rdf:resource="#pitch74"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch74">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration64">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note65">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration65"/>
+  <musi:pitch rdf:resource="#pitch75"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch75">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration65">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note66">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration66"/>
+  <musi:pitch rdf:resource="#pitch76"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch76">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A2</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration66">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
@@ -1684,110 +1902,20 @@
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note62"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note64"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note63"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note65"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note67"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note66"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note67"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note69"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note68"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note70"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note72"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note71"/>
 </Zarl:Cadence>
-
-<musi:Note rdf:about="#note62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration62"/>
-  <musi:pitch rdf:resource="#pitch72"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">546.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration63"/>
-  <musi:pitch rdf:resource="#pitch73"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">549.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch73">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration64"/>
-  <musi:pitch rdf:resource="#pitch74"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">552.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch74">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration65"/>
-  <musi:pitch rdf:resource="#pitch75"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">547.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch75">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration66"/>
-  <musi:pitch rdf:resource="#pitch76"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">548.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch76">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
 
 <musi:Note rdf:about="#note67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration67"/>
   <musi:pitch rdf:resource="#pitch77"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">552.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch77">
@@ -1797,6 +1925,96 @@
 
 <musi:Duration rdf:about="#duration67">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note68">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration68"/>
+  <musi:pitch rdf:resource="#pitch78"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch78">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration68">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note69">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration69"/>
+  <musi:pitch rdf:resource="#pitch79"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch79">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration69">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note70">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration70"/>
+  <musi:pitch rdf:resource="#pitch80"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch80">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration70">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note71">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration71"/>
+  <musi:pitch rdf:resource="#pitch81"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch81">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration71">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note72">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration72"/>
+  <musi:pitch rdf:resource="#pitch82"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch82">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration72">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
@@ -1805,110 +2023,20 @@
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note68"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note70"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note69"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note71"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note73"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note72"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note73"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note75"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note74"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note76"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note78"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note77"/>
 </Zarl:Cadence>
-
-<musi:Note rdf:about="#note68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration68"/>
-  <musi:pitch rdf:resource="#pitch78"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">590.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch78">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration69"/>
-  <musi:pitch rdf:resource="#pitch79"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">596.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch79">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration70"/>
-  <musi:pitch rdf:resource="#pitch80"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch80">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration71"/>
-  <musi:pitch rdf:resource="#pitch81"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">590.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch81">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration72"/>
-  <musi:pitch rdf:resource="#pitch82"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">596.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch82">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
 
 <musi:Note rdf:about="#note73">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration73"/>
   <musi:pitch rdf:resource="#pitch83"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">600.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch83">
@@ -1918,6 +2046,96 @@
 
 <musi:Duration rdf:about="#duration73">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note74">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration74"/>
+  <musi:pitch rdf:resource="#pitch84"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch84">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration74">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note75">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration75"/>
+  <musi:pitch rdf:resource="#pitch85"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch85">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration75">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note76">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration76"/>
+  <musi:pitch rdf:resource="#pitch86"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch86">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration76">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note77">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration77"/>
+  <musi:pitch rdf:resource="#pitch87"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch87">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration77">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note78">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration78"/>
+  <musi:pitch rdf:resource="#pitch88"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch88">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration78">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
@@ -1926,200 +2144,97 @@
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
   <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note74"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note76"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note75"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note77"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note79"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note78"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note79"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note81"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note80"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note82"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note84"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note83"/>
 </Zarl:Cadence>
-
-<musi:Note rdf:about="#note74">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration74"/>
-  <musi:pitch rdf:resource="#pitch84"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">610.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch84">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration74">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note75">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration75"/>
-  <musi:pitch rdf:resource="#pitch85"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">613.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch85">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration75">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note76">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration76"/>
-  <musi:pitch rdf:resource="#pitch86"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">616.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch86">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration76">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note77">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration77"/>
-  <musi:pitch rdf:resource="#pitch87"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">610.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch87">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration77">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note78">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration78"/>
-  <musi:pitch rdf:resource="#pitch88"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">612.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch88">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration78">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
 
 <musi:Note rdf:about="#note79">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration79"/>
   <musi:pitch rdf:resource="#pitch89"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">616.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch89">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration79">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence15">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note80"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note82"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note81"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note83"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note85"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note84"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note80">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration80"/>
   <musi:pitch rdf:resource="#pitch90"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">786.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration80">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note81">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration81"/>
   <musi:pitch rdf:resource="#pitch91"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">789.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G#4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration81">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration82"/>
   <musi:pitch rdf:resource="#pitch92"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">792.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration82">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note83">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration83"/>
   <musi:pitch rdf:resource="#pitch93"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">784.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch93">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration83">
@@ -2131,60 +2246,62 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration84"/>
   <musi:pitch rdf:resource="#pitch94"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">788.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration84">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence15">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note85"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note87"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note86"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note88"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note90"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note89"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note85">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration85"/>
   <musi:pitch rdf:resource="#pitch95"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">792.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration85">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence16">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note87"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note86"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note89"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note88"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note86">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration86"/>
   <musi:pitch rdf:resource="#pitch96"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">831.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G#4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration86">
@@ -2196,13 +2313,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration87"/>
   <musi:pitch rdf:resource="#pitch97"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">832.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration87">
@@ -2214,13 +2331,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration88"/>
   <musi:pitch rdf:resource="#pitch98"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">828.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration88">
@@ -2232,80 +2349,78 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration89"/>
   <musi:pitch rdf:resource="#pitch99"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">832.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration89">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence17">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note95"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note94"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note91"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note90"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note93"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note92"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration90"/>
   <musi:pitch rdf:resource="#pitch100"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">871.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration90">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence16">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note92"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note91"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note94"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note93"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration91"/>
   <musi:pitch rdf:resource="#pitch101"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">872.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration91">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note92">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration92"/>
   <musi:pitch rdf:resource="#pitch102"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">864.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration92">
@@ -2317,116 +2432,116 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration93"/>
   <musi:pitch rdf:resource="#pitch103"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">872.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration93">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration94"/>
   <musi:pitch rdf:resource="#pitch104"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">864.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration94">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence17">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note100"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note99"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note96"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note95"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note98"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note97"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration95"/>
   <musi:pitch rdf:resource="#pitch105"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">872.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration95">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence18">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note101"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note100"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note97"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note96"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note99"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note98"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration96"/>
   <musi:pitch rdf:resource="#pitch106"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">911.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration96">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration97"/>
   <musi:pitch rdf:resource="#pitch107"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">912.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration97">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note98">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration98"/>
   <musi:pitch rdf:resource="#pitch108"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">904.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration98">
@@ -2438,113 +2553,111 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration99"/>
   <musi:pitch rdf:resource="#pitch109"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">912.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration99">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration100"/>
   <musi:pitch rdf:resource="#pitch110"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">904.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch110">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration100">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence18">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note106"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note105"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note102"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note101"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note104"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note103"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration101"/>
   <musi:pitch rdf:resource="#pitch111"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">912.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch111">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration101">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasAntepenultima rdf:resource="#note107"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note109"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note108"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note103"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note102"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note104"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note106"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note105"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration102"/>
   <musi:pitch rdf:resource="#pitch112"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">984.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration102">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration103"/>
   <musi:pitch rdf:resource="#pitch113"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">988.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration103">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration104"/>
   <musi:pitch rdf:resource="#pitch114"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">982.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch114">
@@ -2554,61 +2667,76 @@
 
 <musi:Duration rdf:about="#duration104">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration105"/>
   <musi:pitch rdf:resource="#pitch115"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">984.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration105">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration106"/>
   <musi:pitch rdf:resource="#pitch116"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">988.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration106">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence19">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasAntepenultima rdf:resource="#note112"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note114"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note113"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note108"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note107"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note109"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note111"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note110"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration107"/>
   <musi:pitch rdf:resource="#pitch117"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">982.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration107">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note108">
@@ -2616,55 +2744,43 @@
   <musi:duration rdf:resource="#duration108"/>
   <musi:pitch rdf:resource="#pitch118"/>
   <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">984.0</musi:offset>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch118">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration108">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration109"/>
   <musi:pitch rdf:resource="#pitch119"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">988.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration109">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note114"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note113"/>
-  <Zarl:tenorHasAntepenultima rdf:resource="#note110"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note112"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note111"/>
-</Zarl:Cadence>
 
 <musi:Note rdf:about="#note110">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration110"/>
   <musi:pitch rdf:resource="#pitch120"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1008.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch120">
@@ -2681,13 +2797,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration111"/>
   <musi:pitch rdf:resource="#pitch121"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1012.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch121">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration111">
@@ -2699,31 +2815,31 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration112"/>
   <musi:pitch rdf:resource="#pitch122"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1016.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch122">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration112">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note113">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration113"/>
   <musi:pitch rdf:resource="#pitch123"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1012.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch123">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration113">
@@ -2735,13 +2851,13 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration114"/>
   <musi:pitch rdf:resource="#pitch124"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1016.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch124">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration114">
@@ -2749,85 +2865,83 @@
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
-<Zarl:Cadence rdf:about="#cadence21">
+<Zarl:Cadence rdf:about="#cadence20">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-  <Zarl:bassusHasFinalis rdf:resource="#note121"/>
-  <Zarl:bassusHasPenultima rdf:resource="#note120"/>
-  <Zarl:cantusHasAntepenultima rdf:resource="#note115"/>
-  <Zarl:cantusHasFinalis rdf:resource="#note117"/>
-  <Zarl:cantusHasPenultima rdf:resource="#note116"/>
-  <Zarl:tenorHasFinalis rdf:resource="#note119"/>
-  <Zarl:tenorHasPenultima rdf:resource="#note118"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note119"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note118"/>
+  <Zarl:tenorHasAntepenultima rdf:resource="#note115"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note117"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note116"/>
 </Zarl:Cadence>
 
 <musi:Note rdf:about="#note115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration115"/>
   <musi:pitch rdf:resource="#pitch125"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1121.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch125">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration115">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration116"/>
   <musi:pitch rdf:resource="#pitch126"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1126.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch126">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration116">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration117"/>
   <musi:pitch rdf:resource="#pitch127"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1128.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch127">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration117">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note118">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration118"/>
   <musi:pitch rdf:resource="#pitch128"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1124.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch128">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration118">
@@ -2839,52 +2953,156 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration119"/>
   <musi:pitch rdf:resource="#pitch129"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1128.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch129">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration119">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
+
+<Zarl:Cadence rdf:about="#cadence21">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+  <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+  <Zarl:bassusHasFinalis rdf:resource="#note126"/>
+  <Zarl:bassusHasPenultima rdf:resource="#note125"/>
+  <Zarl:cantusHasAntepenultima rdf:resource="#note120"/>
+  <Zarl:cantusHasFinalis rdf:resource="#note122"/>
+  <Zarl:cantusHasPenultima rdf:resource="#note121"/>
+  <Zarl:tenorHasFinalis rdf:resource="#note124"/>
+  <Zarl:tenorHasPenultima rdf:resource="#note123"/>
+</Zarl:Cadence>
 
 <musi:Note rdf:about="#note120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration120"/>
   <musi:pitch rdf:resource="#pitch130"/>
   <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1120.0</musi:offset>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch130">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration120">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</musi:quarterLength>
 </musi:Duration>
 
 <musi:Note rdf:about="#note121">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:duration rdf:resource="#duration121"/>
   <musi:pitch rdf:resource="#pitch131"/>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1132.0</musi:offset>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:offset>
 </musi:Note>
 
 <musi:Pitch rdf:about="#pitch131">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E4</musi:nameWithOctave>
 </musi:Pitch>
 
 <musi:Duration rdf:about="#duration121">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration122"/>
+  <musi:pitch rdf:resource="#pitch132"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch132">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F4</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration122">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note123">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration123"/>
+  <musi:pitch rdf:resource="#pitch133"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch133">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration123">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note124">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration124"/>
+  <musi:pitch rdf:resource="#pitch134"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch134">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration124">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note125">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration125"/>
+  <musi:pitch rdf:resource="#pitch135"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">141</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch135">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration125">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
+</musi:Duration>
+
+<musi:Note rdf:about="#note126">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:duration rdf:resource="#duration126"/>
+  <musi:pitch rdf:resource="#pitch136"/>
+  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</musi:measureNumber>
+  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:offset>
+</musi:Note>
+
+<musi:Pitch rdf:about="#pitch136">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F3</musi:nameWithOctave>
+</musi:Pitch>
+
+<musi:Duration rdf:about="#duration126">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
 </musi:Duration>
@@ -2900,9 +3118,9 @@
 
 <Algorithm rdf:about="#algorithm1">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.625</hasCoefficient>
-  <hasLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confirmed elements: [modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceA3) | modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceC3) | modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceC4) | modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceF3), modalityTonality_Zarlino_1558.hasFinalis.some(modalityTonality_Zarlino_1558.FinalisF3), Zarlino_1558.altusHasAmbitus.some(modalityTonality_Zarlino_1558.F3_F4), modalityTonality_Zarlino_1558.cantusHasAmbitus.some(modalityTonality_Zarlino_1558.C4_C5), modalityTonality_Zarlino_1558.tenorHasAmbitus.some(modalityTonality_Zarlino_1558.C3_C4)]</hasLog>
-  <hasLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not confirmed elements: [modalityTonality_Zarlino_1558.hasInitialTone.some(modalityTonality_Zarlino_1558.a3) | modalityTonality_Zarlino_1558.hasInitialTone.some(modalityTonality_Zarlino_1558.c3) | modalityTonality_Zarlino_1558.hasInitialTone.some(modalityTonality_Zarlino_1558.c4) | modalityTonality_Zarlino_1558.hasInitialTone.some(modalityTonality_Zarlino_1558.f3), modalityTonality_Zarlino_1558.hasSystemAlteration.some(modalityTonality_Zarlino_1558.SystemAlteration_b-), modalityTonality_Zarlino_1558.bassusHasAmbitus.some(modalityTonality_Zarlino_1558.F2_F3)]</hasLog>
+  <hasCoefficient rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.9166666666666666</hasCoefficient>
+  <hasLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Confirmed elements: [modalityTonality_Zarlino_1558.hasInitialNote.some(modalityTonality_Zarlino_1558.InitialNoteA3) | modalityTonality_Zarlino_1558.hasInitialNote.some(modalityTonality_Zarlino_1558.InitialNoteC3) | modalityTonality_Zarlino_1558.hasInitialNote.some(modalityTonality_Zarlino_1558.InitialNoteC4) | modalityTonality_Zarlino_1558.hasInitialNote.some(modalityTonality_Zarlino_1558.InitialNoteF3), modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceA3), modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceC3), modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceC4), modalityTonality_Zarlino_1558.hasCadence.some(modalityTonality_Zarlino_1558.CadenceF3), modalityTonality_Zarlino_1558.hasFinalis.some(modalityTonality_Zarlino_1558.FinalisF3), modalityTonality_Zarlino_1558.hasKey.some(modalityTonality_Zarlino_1558.KeyB-), modalityTonality_Zarlino_1558.hasPitchClass.some(modalityTonality_Zarlino_1558.PitchClassB-), Zarlino_1558.altusHasAmbitus.some(modalityTonality_Zarlino_1558.F3_F4), modalityTonality_Zarlino_1558.cantusHasAmbitus.some(modalityTonality_Zarlino_1558.C4_C5), modalityTonality_Zarlino_1558.tenorHasAmbitus.some(modalityTonality_Zarlino_1558.C3_C4)]</hasLog>
+  <hasLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not confirmed elements: [modalityTonality_Zarlino_1558.bassusHasAmbitus.some(modalityTonality_Zarlino_1558.F2_F3)]</hasLog>
   <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CompareClassIndividual</hasName>
 </Algorithm>
 
