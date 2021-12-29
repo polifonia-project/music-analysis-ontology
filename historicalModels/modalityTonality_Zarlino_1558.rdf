@@ -7408,6 +7408,10 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
                     </owl:Restriction>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
                     </owl:Restriction>
@@ -7539,6 +7543,10 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
                         <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
