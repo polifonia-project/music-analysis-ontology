@@ -1276,6 +1276,18 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#hasIRI"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#hasName"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1883,6 +1895,30 @@
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#clefsandkeysanalysis.hassharps14">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasSharps"/>
         <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T15:34:34.395888</hasDate>
+        <hasPythonClassName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClefsAndKeysAnalysis</hasPythonClassName>
+        <hasPythonDefName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSharps</hasPythonDefName>
+        <hasPythonModuleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clefsAndKeys</hasPythonModuleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#clefsandkeysanalysis.hassharps15 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#clefsandkeysanalysis.hassharps15">
+        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasSharps"/>
+        <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T16:09:22.287934</hasDate>
+        <hasPythonClassName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClefsAndKeysAnalysis</hasPythonClassName>
+        <hasPythonDefName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSharps</hasPythonDefName>
+        <hasPythonModuleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clefsAndKeys</hasPythonModuleName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#clefsandkeysanalysis.hassharps16 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#clefsandkeysanalysis.hassharps16">
+        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasSharps"/>
+        <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T16:46:33.866283</hasDate>
         <hasPythonClassName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ClefsAndKeysAnalysis</hasPythonClassName>
         <hasPythonDefName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSharps</hasPythonDefName>
         <hasPythonModuleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clefsAndKeys</hasPythonModuleName>
@@ -3200,6 +3236,22 @@
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#mode23 -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#mode23">
+        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#mode24 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#mode24">
+        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#mode25 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#mode25">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
     </owl:NamedIndividual>
     
@@ -6142,7 +6194,6 @@
     <!-- http://modality-tonality.huma-num.fr/analysisOntology#theoreticalmodel28 -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#theoreticalmodel28">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
         <hasIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</hasIRI>
         <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</hasName>
