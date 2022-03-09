@@ -20417,12 +20417,12 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert,_Veni_sancte_spiritus_(6v) -->
 
     <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert,_Veni_sancte_spiritus_(6v)">
-        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicD"/>
+        <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG"/>
     </owl:NamedIndividual>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Willaert,_Veni_sancte_spiritus_(6v)"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicD"/>
+        <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG"/>
         <dc:source>1558, 4, 18</dc:source>
     </owl:Axiom>
     
