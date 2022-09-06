@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/Guillotel_2022#"
+     xml:base="http://modality-tonality.huma-num.fr/Guillotel_2022"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasAltizans -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasAltizans">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasAntepenultima -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasAntepenultima">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasBassizans -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasBassizans">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasCantizans -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasCantizans">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasFinalis -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasFinalis">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasPenultima -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasPenultima">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#hasTenorizans -->
+
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasTenorizans">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Steps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#CadenceType -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#CadenceType">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasAltizans"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasBassizans"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasCantizans"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasTenorizans"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Steps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasAntepenultima"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasFinalis"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasPenultima"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#PCadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#PCadence">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#CadenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Steps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#RegularCadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#RegularCadence">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#CadenceType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Steps -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Steps"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
