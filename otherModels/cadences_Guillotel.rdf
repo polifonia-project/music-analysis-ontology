@@ -219,6 +219,20 @@
     <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence -->
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#PCadence"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType"/>
+                        <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#RegularCadence"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
     
