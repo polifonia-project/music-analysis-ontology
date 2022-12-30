@@ -23,25 +23,33 @@
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#altusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#altusHasFinalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#altusHasFinalis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#bassusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#bassusHasFinalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#bassusHasFinalis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#cantusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#cantusHasFinalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#cantusHasFinalis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#tenorHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#tenorHasFinalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#tenorHasFinalis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
     
 
 
