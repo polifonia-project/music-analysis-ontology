@@ -1,2286 +1,1466 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://modality-tonality.huma-num.fr/analysisOntology"
-         xmlns="http://modality-tonality.huma-num.fr/analysisOntology#"
-         xmlns:Zarl="http://modality-tonality.huma-num.fr/Zarlino_1558#"
-         xmlns:Josq="http://modality-tonality.huma-num.fr/JosquinProject#"
-         xmlns:musi="http://modality-tonality.huma-num.fr/music21#">
+<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/analysisOntology#"
+     xml:base="http://modality-tonality.huma-num.fr/analysisOntology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Josq="http://modality-tonality.huma-num.fr/JosquinProject#"
+     xmlns:Zarl="http://modality-tonality.huma-num.fr/Zarlino_1558#"
+     xmlns:musi="http://modality-tonality.huma-num.fr/music21#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
+    <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysisOntology">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/historicalModels/modalityTonality_Zarlino_1558.rdf"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
+    </owl:Ontology>
+    
 
-<owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysisOntology">
-  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/historicalModels/modalityTonality_Zarlino_1558.rdf"/>
-  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
-  <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
-</owl:Ontology>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#analyst -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
+    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#analyst"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#analyticalComment -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima"/>
+    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#analyticalComment"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#webPortalProperty -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis"/>
+    <owl:AnnotationProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#webPortalProperty"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialNote"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasNote"/>
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchClass"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
+    
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima"/>
 
-<owl:ObjectProperty rdf:about="#hasAnalysis"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima -->
 
-<owl:ObjectProperty rdf:about="#hasAnalyst"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima"/>
+    
 
-<owl:ObjectProperty rdf:about="#hasAnalyticalObservation">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:subPropertyOf rdf:resource="#hasAnalysis"/>
-</owl:ObjectProperty>
 
-<owl:ObjectProperty rdf:about="#hasComposer">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:ObjectProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis -->
 
-<owl:ObjectProperty rdf:about="#hasContext">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis"/>
+    
 
-<owl:ObjectProperty rdf:about="#hasGenre"/>
 
-<owl:ObjectProperty rdf:about="#hasInstrumentation">
-  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-</owl:ObjectProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima -->
 
-<owl:ObjectProperty rdf:about="#hasInterpretation"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima"/>
+    
 
-<owl:ObjectProperty rdf:about="#hasModalTonalAttribution"/>
 
-<owl:ObjectProperty rdf:about="#hasOrigin"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus -->
 
-<owl:ObjectProperty rdf:about="#hasPart">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
+    
 
-<owl:ObjectProperty rdf:about="#hasTheoreticalModel"/>
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#duration"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima -->
 
-<owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#pitch"/>
-
-<owl:DatatypeProperty rdf:about="#hasAmbitus">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
-
-<owl:DatatypeProperty rdf:about="#hasClef">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasCoefficient">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasCopyright">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis -->
 
-<owl:DatatypeProperty rdf:about="#hasDate">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasFileFormat">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasFileName">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima -->
 
-<owl:DatatypeProperty rdf:about="#hasFilePath">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasFinalPitch">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasIRI">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus -->
 
-<owl:DatatypeProperty rdf:about="#hasKey">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasLog"/>
 
-<owl:DatatypeProperty rdf:about="#hasName">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima -->
 
-<owl:DatatypeProperty rdf:about="#hasNumberOfParts">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasPythonClassName">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasPythonDefName">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis -->
 
-<owl:DatatypeProperty rdf:about="#hasPythonModuleName">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasTempus">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasTimeSignature"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima -->
 
-<owl:DatatypeProperty rdf:about="#hasTitle">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima"/>
+    
 
-<owl:DatatypeProperty rdf:about="#hasURL">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="#hasVersion">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence -->
 
-<owl:DatatypeProperty rdf:about="#isMachineAnalysis">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-</owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
+    
 
-<owl:DatatypeProperty rdf:about="#isQuotedIn">
-  <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
-</owl:DatatypeProperty>
 
-<owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#id"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis -->
 
-<owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#measureNumber"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
+    
 
-<owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#nameWithOctave"/>
 
-<owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#offset"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialNote -->
 
-<owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#quarterLength"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialNote"/>
+    
 
-<owl:AnnotationProperty rdf:about="#webPortalProperty"/>
 
-<owl:AnnotationProperty rdf:about="#analyst"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey -->
 
-<owl:AnnotationProperty rdf:about="#analyticalComment"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasNote -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasNote"/>
+    
 
-<owl:Class rdf:about="#Zarlino_1558">
-  <rdfs:subClassOf rdf:resource="#TheoreticalModel"/>
-  <rdfs:subClassOf>
-    <owl:Restriction>
-      <owl:onProperty rdf:resource="#hasIRI"/>
-      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</owl:hasValue>
-    </owl:Restriction>
-  </rdfs:subClassOf>
-  <rdfs:subClassOf>
-    <owl:Restriction>
-      <owl:onProperty rdf:resource="#hasName"/>
-      <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</owl:hasValue>
-    </owl:Restriction>
-  </rdfs:subClassOf>
-</owl:Class>
 
-<owl:Class rdf:about="#TheoreticalModel"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchClass -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchClass"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicC"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicF"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-2"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-3"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD4"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD5"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAnalysis -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalysis"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF2"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyst -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyst"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG2"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyticalObservation -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalyticalObservation">
+        <rdfs:subPropertyOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#hasAnalysis"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Clef">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasComposer -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasComposer">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:ObjectProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModePlagalPolyphonicG"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasContext -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedAmbitus"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasContext">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:ObjectProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasElectronicEditor -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E4_E5"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasElectronicEditor"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasEncoder -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasEncoder"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F4_F5"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasGenre -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasGenre"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG2"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasInstrumentation -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasInstrumentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasInterpretation -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#GModePlagalPolyphonicG"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasInterpretation"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNote">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasModalTonalAttribution -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteB-4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasModalTonalAttribution"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD3"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD4"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasOriginalEditor -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG3"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasOriginalEditor"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG4"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Interval">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasPart -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Key">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasPart">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:ObjectProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTheoreticalModel -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTheoreticalModel"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass">
-  <rdfs:subClassOf rdf:resource="#Zarlino_1558"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/music21#duration -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#duration"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA-"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB"/>
+    <!-- http://modality-tonality.huma-num.fr/music21#pitch -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB-"/>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#pitch"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD"/>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE-"/>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasAmbitus -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG"/>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasAmbitus">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasClef -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasClef">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasCoefficient -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasCoefficient">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasCopyright -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasCopyright">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModeAuthentic">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasDate -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModePlagal">
-  <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
 
-<owl:Class rdf:about="#Algorithm"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasEncodingDate -->
 
-<owl:Class rdf:about="#Analysis"/>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasEncodingDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#AnalysisOnto.addCadenceFromJosquinProject">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
 
-<owl:Class rdf:about="#AnalysisOnto.addZarlinoModalAnalysisToWork">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasEncodingVersion -->
 
-<owl:Class rdf:about="#Analyst"/>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasEncodingVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#AnalyticalInterpretation">
-  <rdfs:subClassOf rdf:resource="#Analysis"/>
-</owl:Class>
 
-<owl:Class rdf:about="#AnalyticalObservation">
-  <rdfs:subClassOf rdf:resource="#Analysis"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFileFormat -->
 
-<owl:Class rdf:about="#Cadences.identifyCadencesFromVoiceAnnotations">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFileFormat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#Cadences.josquinAnnotations">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
 
-<owl:Class rdf:about="#ClefsAndKeysAnalysis.hasAmbitus">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFileName -->
 
-<owl:Class rdf:about="#ClefsAndKeysAnalysis.hasInitialNotes">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFileName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#ClefsAndKeysAnalysis.hasSharps">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
 
-<owl:Class rdf:about="#Composer"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFilePath -->
 
-<owl:Class rdf:about="#Context"/>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFilePath">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#Genre"/>
 
-<owl:Class rdf:about="#Instrumentation"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasFinalPitch -->
 
-<owl:Class rdf:about="#Monophonic">
-  <rdfs:subClassOf rdf:resource="#Instrumentation"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasFinalPitch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#Music21">
-  <rdfs:subClassOf rdf:resource="#TheoreticalModel"/>
-</owl:Class>
 
-<owl:Class rdf:about="#Part">
-  <rdfs:subClassOf rdf:resource="#Work"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasIRI -->
 
-<owl:Class rdf:about="#Work">
-  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasIRI">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="#PitchAnalysisSimple.__init">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
 
-<owl:Class rdf:about="#Polyphonic">
-  <rdfs:subClassOf rdf:resource="#Instrumentation"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasKey -->
 
-<owl:Class rdf:about="#zarlino1558.getModeFromObservations">
-  <rdfs:subClassOf rdf:resource="#Algorithm"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasKey">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Duration">
-  <rdfs:subClassOf rdf:resource="#Music21"/>
-</owl:Class>
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Interval">
-  <rdfs:subClassOf rdf:resource="#Music21"/>
-</owl:Class>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasLog -->
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Note">
-  <rdfs:subClassOf rdf:resource="#Music21"/>
-</owl:Class>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasLog"/>
+    
 
-<owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Pitch">
-  <rdfs:subClassOf rdf:resource="#Music21"/>
-</owl:Class>
 
-<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasName -->
 
-<rdf:Description rdf:about="#cadences.josquinannotations1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-</rdf:Description>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<rdf:Description rdf:about="#work1">
-  <hasAnalysis rdf:resource="#analysis1"/>
-</rdf:Description>
 
-<rdf:Description rdf:about="#analyticalobservation1">
-  <Zarl:hasCadence rdf:resource="#cadence1"/>
-  <Zarl:hasCadence rdf:resource="#cadence2"/>
-  <Zarl:hasCadence rdf:resource="#cadence3"/>
-  <Zarl:hasCadence rdf:resource="#cadence4"/>
-  <Zarl:hasCadence rdf:resource="#cadence5"/>
-  <Zarl:hasCadence rdf:resource="#cadence6"/>
-  <Zarl:hasCadence rdf:resource="#cadence7"/>
-  <Zarl:hasCadence rdf:resource="#cadence8"/>
-  <Zarl:hasCadence rdf:resource="#cadence9"/>
-</rdf:Description>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasNumberOfParts -->
 
-<Zarl:Cadence rdf:about="#cadence1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note1"/>
-  <Josq:tenorHasFinalis rdf:resource="#note2"/>
-</Zarl:Cadence>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasNumberOfParts">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<Zarl:Cadence rdf:about="#cadence2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note3"/>
-  <Josq:tenorHasFinalis rdf:resource="#note4"/>
-</Zarl:Cadence>
 
-<Zarl:Cadence rdf:about="#cadence3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note5"/>
-  <Josq:tenorHasFinalis rdf:resource="#note6"/>
-  <Josq:bassusHasFinalis rdf:resource="#note7"/>
-</Zarl:Cadence>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasPythonClassName -->
 
-<Zarl:Cadence rdf:about="#cadence4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note8"/>
-  <Josq:tenorHasFinalis rdf:resource="#note9"/>
-  <Josq:bassusHasFinalis rdf:resource="#note10"/>
-</Zarl:Cadence>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasPythonClassName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<Zarl:Cadence rdf:about="#cadence5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note11"/>
-  <Josq:tenorHasFinalis rdf:resource="#note12"/>
-  <Josq:bassusHasFinalis rdf:resource="#note13"/>
-</Zarl:Cadence>
 
-<Zarl:Cadence rdf:about="#cadence6">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note14"/>
-  <Josq:tenorHasFinalis rdf:resource="#note15"/>
-</Zarl:Cadence>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasPythonDefName -->
 
-<Zarl:Cadence rdf:about="#cadence7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note16"/>
-  <Josq:tenorHasFinalis rdf:resource="#note17"/>
-  <Josq:bassusHasFinalis rdf:resource="#note18"/>
-</Zarl:Cadence>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasPythonDefName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<Zarl:Cadence rdf:about="#cadence8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note19"/>
-  <Josq:tenorHasFinalis rdf:resource="#note20"/>
-  <Josq:bassusHasFinalis rdf:resource="#note21"/>
-</Zarl:Cadence>
 
-<Zarl:Cadence rdf:about="#cadence9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations2"/>
-  <Josq:cantusHasFinalis rdf:resource="#note22"/>
-  <Josq:tenorHasFinalis rdf:resource="#note23"/>
-  <Josq:bassusHasFinalis rdf:resource="#note24"/>
-</Zarl:Cadence>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasPythonModuleName -->
 
-<musi:Note rdf:about="#note1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration1"/>
-  <musi:pitch rdf:resource="#pitch1"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasPythonModuleName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
 
-<musi:Note rdf:about="#note2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration2"/>
-  <musi:pitch rdf:resource="#pitch2"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
 
-<musi:Note rdf:about="#note3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration3"/>
-  <musi:pitch rdf:resource="#pitch3"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTempus -->
 
-<musi:Note rdf:about="#note4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration4"/>
-  <musi:pitch rdf:resource="#pitch4"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTempus">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<musi:Note rdf:about="#note5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration5"/>
-  <musi:pitch rdf:resource="#pitch5"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
 
-<musi:Note rdf:about="#note6">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration6"/>
-  <musi:pitch rdf:resource="#pitch6"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTimeSignature -->
 
-<musi:Note rdf:about="#note7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration7"/>
-  <musi:pitch rdf:resource="#pitch7"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTimeSignature"/>
+    
 
-<musi:Note rdf:about="#note8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration8"/>
-  <musi:pitch rdf:resource="#pitch8"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
 
-<musi:Note rdf:about="#note9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration9"/>
-  <musi:pitch rdf:resource="#pitch9"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasTitle -->
 
-<musi:Note rdf:about="#note10">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration10"/>
-  <musi:pitch rdf:resource="#pitch10"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
-<musi:Note rdf:about="#note11">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration11"/>
-  <musi:pitch rdf:resource="#pitch11"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
 
-<musi:Note rdf:about="#note12">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration12"/>
-  <musi:pitch rdf:resource="#pitch12"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasURL -->
 
-<musi:Note rdf:about="#note13">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration13"/>
-  <musi:pitch rdf:resource="#pitch13"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note14">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration14"/>
-  <musi:pitch rdf:resource="#pitch14"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note15">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration15"/>
-  <musi:pitch rdf:resource="#pitch15"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note16">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration16"/>
-  <musi:pitch rdf:resource="#pitch16"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note17">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration17"/>
-  <musi:pitch rdf:resource="#pitch17"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note18">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration18"/>
-  <musi:pitch rdf:resource="#pitch18"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration19"/>
-  <musi:pitch rdf:resource="#pitch19"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration20"/>
-  <musi:pitch rdf:resource="#pitch20"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note21">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration21"/>
-  <musi:pitch rdf:resource="#pitch21"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note22">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration22"/>
-  <musi:pitch rdf:resource="#pitch22"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note23">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration23"/>
-  <musi:pitch rdf:resource="#pitch23"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note24">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration24"/>
-  <musi:pitch rdf:resource="#pitch24"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Duration rdf:about="#duration1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration6">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch6">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch9">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration10">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch10">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration11">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch11">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration12">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch12">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration13">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch13">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration14">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch14">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration15">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch15">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration16">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch16">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration17">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch17">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration18">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch18">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration21">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch21">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration22">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch22">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration23">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch23">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration24">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch24">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<rdf:Description rdf:about="#work2">
-  <hasAnalysis rdf:resource="#analysis2"/>
-</rdf:Description>
-
-<Analysis rdf:about="#analysis2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasAnalyticalObservation rdf:resource="#analyticalobservation2"/>
-  <hasOrigin rdf:resource="#analysisonto.addcadencefromjosquinproject1"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-30T19:40:55.088488</hasDate>
-</Analysis>
-
-<rdf:Description rdf:about="#analyticalobservation2">
-  <Zarl:hasCadence rdf:resource="#cadence10"/>
-  <Zarl:hasCadence rdf:resource="#cadence11"/>
-  <Zarl:hasCadence rdf:resource="#cadence12"/>
-  <Zarl:hasCadence rdf:resource="#cadence13"/>
-  <Zarl:hasCadence rdf:resource="#cadence14"/>
-  <Zarl:hasCadence rdf:resource="#cadence15"/>
-  <Zarl:hasCadence rdf:resource="#cadence16"/>
-  <Zarl:hasCadence rdf:resource="#cadence17"/>
-  <Zarl:hasCadence rdf:resource="#cadence18"/>
-</rdf:Description>
-
-<Zarl:Cadence rdf:about="#cadence10">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note25"/>
-  <Josq:tenorHasFinalis rdf:resource="#note26"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence11">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note27"/>
-  <Josq:tenorHasFinalis rdf:resource="#note28"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence12">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note29"/>
-  <Josq:tenorHasFinalis rdf:resource="#note30"/>
-  <Josq:bassusHasFinalis rdf:resource="#note31"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence13">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note32"/>
-  <Josq:tenorHasFinalis rdf:resource="#note33"/>
-  <Josq:bassusHasFinalis rdf:resource="#note34"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence14">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note35"/>
-  <Josq:tenorHasFinalis rdf:resource="#note36"/>
-  <Josq:bassusHasFinalis rdf:resource="#note37"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence15">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note38"/>
-  <Josq:tenorHasFinalis rdf:resource="#note39"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence16">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note40"/>
-  <Josq:tenorHasFinalis rdf:resource="#note41"/>
-  <Josq:bassusHasFinalis rdf:resource="#note42"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence17">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note43"/>
-  <Josq:tenorHasFinalis rdf:resource="#note44"/>
-  <Josq:bassusHasFinalis rdf:resource="#note45"/>
-</Zarl:Cadence>
-
-<Zarl:Cadence rdf:about="#cadence18">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations3"/>
-  <Josq:cantusHasFinalis rdf:resource="#note46"/>
-  <Josq:tenorHasFinalis rdf:resource="#note47"/>
-  <Josq:bassusHasFinalis rdf:resource="#note48"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration25"/>
-  <musi:pitch rdf:resource="#pitch25"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration26"/>
-  <musi:pitch rdf:resource="#pitch26"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration27"/>
-  <musi:pitch rdf:resource="#pitch27"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration28"/>
-  <musi:pitch rdf:resource="#pitch28"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration29"/>
-  <musi:pitch rdf:resource="#pitch29"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note30">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration30"/>
-  <musi:pitch rdf:resource="#pitch30"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note31">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration31"/>
-  <musi:pitch rdf:resource="#pitch31"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note32">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration32"/>
-  <musi:pitch rdf:resource="#pitch32"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note33">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration33"/>
-  <musi:pitch rdf:resource="#pitch33"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note34">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration34"/>
-  <musi:pitch rdf:resource="#pitch34"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note35">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration35"/>
-  <musi:pitch rdf:resource="#pitch35"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note36">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration36"/>
-  <musi:pitch rdf:resource="#pitch36"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note37">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration37"/>
-  <musi:pitch rdf:resource="#pitch37"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note38">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration38"/>
-  <musi:pitch rdf:resource="#pitch38"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note39">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration39"/>
-  <musi:pitch rdf:resource="#pitch39"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note40">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration40"/>
-  <musi:pitch rdf:resource="#pitch40"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note41">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration41"/>
-  <musi:pitch rdf:resource="#pitch41"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note42">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration42"/>
-  <musi:pitch rdf:resource="#pitch42"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note43">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration43"/>
-  <musi:pitch rdf:resource="#pitch43"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note44">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration44"/>
-  <musi:pitch rdf:resource="#pitch44"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note45">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration45"/>
-  <musi:pitch rdf:resource="#pitch45"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note46">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration46"/>
-  <musi:pitch rdf:resource="#pitch46"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note47">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration47"/>
-  <musi:pitch rdf:resource="#pitch47"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Note rdf:about="#note48">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration48"/>
-  <musi:pitch rdf:resource="#pitch48"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Duration rdf:about="#duration25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch28">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch29">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration30">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch30">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration31">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch31">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration32">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch32">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration33">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch33">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration34">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch34">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration35">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch35">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration36">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch36">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration37">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch37">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration38">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch38">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration39">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch39">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration40">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch40">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration41">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch41">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration42">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch42">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration43">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch43">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration44">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch44">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration45">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch45">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration46">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch46">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration47">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch47">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration48">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Pitch rdf:about="#pitch48">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<Work rdf:about="#work3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasComposer rdf:resource="#composer1"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veni Sancte Spiritus</hasTitle>
-  <hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/meiOldClefsAnalyse/Willaert_Veni_Sancte_6vv.mei</hasURL>
-</Work>
-
-<Composer rdf:about="#composer1">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrian Willaert</hasName>
-</Composer>
-
-<Work rdf:about="#work4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasComposer rdf:resource="#composer1"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veni Sancte Spiritus</hasTitle>
-  <hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/meiOldClefsAnalyse/Willaert_Veni_Sancte_6vv.mei</hasURL>
-</Work>
-
-<Work rdf:about="#work5">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasComposer rdf:resource="#composer2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasTitle>
-  <hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/meiOldClefsAnalyse/Willaert_Veni_Sancte_6vv.mei</hasURL>
-</Work>
-
-<Composer rdf:about="#composer2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasName>
-</Composer>
-
-<Work rdf:about="#work6">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasComposer rdf:resource="#composer2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasTitle>
-  <hasURL rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/meiOldClefsAnalyse/Willaert_Veni_Sancte_6vv.mei</hasURL>
-</Work>
-
-<Work rdf:about="#work7">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasComposer rdf:resource="#composer2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasTitle>
-</Work>
-
-<Work rdf:about="#work8">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasAnalysis rdf:resource="#analysis3"/>
-  <hasComposer rdf:resource="#composer2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasDate>
-  <hasFileFormat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mei</hasFileFormat>
-  <hasTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</hasTitle>
-</Work>
-
-<AnalysisOnto.addCadenceFromJosquinProject rdf:about="#analysisonto.addcadencefromjosquinproject2">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-30T20:05:51.813548</hasDate>
-  <hasPythonClassName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AnalysisOnto</hasPythonClassName>
-  <hasPythonDefName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addCadenceFromJosquinProject</hasPythonDefName>
-  <hasPythonModuleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theoreticalModels.AnalysisOnto</hasPythonModuleName>
-</AnalysisOnto.addCadenceFromJosquinProject>
-
-<AnalyticalObservation rdf:about="#analyticalobservation3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <Zarl:hasCadence rdf:resource="#cadence19"/>
-  <Zarl:hasCadence rdf:resource="#cadence20"/>
-  <Zarl:hasCadence rdf:resource="#cadence21"/>
-  <Zarl:hasCadence rdf:resource="#cadence22"/>
-  <Zarl:hasCadence rdf:resource="#cadence23"/>
-  <Zarl:hasCadence rdf:resource="#cadence24"/>
-  <Zarl:hasCadence rdf:resource="#cadence25"/>
-  <Zarl:hasCadence rdf:resource="#cadence26"/>
-  <Zarl:hasCadence rdf:resource="#cadence27"/>
-</AnalyticalObservation>
-
-<Analysis rdf:about="#analysis3">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasAnalyticalObservation rdf:resource="#analyticalobservation3"/>
-  <hasOrigin rdf:resource="#analysisonto.addcadencefromjosquinproject2"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-30T20:05:51.814154</hasDate>
-</Analysis>
-
-<Cadences.josquinAnnotations rdf:about="#cadences.josquinannotations4">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-30T20:05:51.942901</hasDate>
-  <hasPythonClassName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cadences</hasPythonClassName>
-  <hasPythonDefName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">josquinAnnotations</hasPythonDefName>
-  <hasPythonModuleName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadenceAnalysis</hasPythonModuleName>
-</Cadences.josquinAnnotations>
-
-<Zarl:Cadence rdf:about="#cadence19">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note49"/>
-  <Josq:tenorHasFinalis rdf:resource="#note50"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note49">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration49"/>
-  <musi:pitch rdf:resource="#pitch49"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch49">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration49">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note50">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration50"/>
-  <musi:pitch rdf:resource="#pitch50"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L28F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch50">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration50">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence20">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note51"/>
-  <Josq:tenorHasFinalis rdf:resource="#note52"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration51"/>
-  <musi:pitch rdf:resource="#pitch51"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration51">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration52"/>
-  <musi:pitch rdf:resource="#pitch52"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L36F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">36.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration52">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence21">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note53"/>
-  <Josq:tenorHasFinalis rdf:resource="#note54"/>
-  <Josq:bassusHasFinalis rdf:resource="#note55"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration53"/>
-  <musi:pitch rdf:resource="#pitch53"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration53">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration54"/>
-  <musi:pitch rdf:resource="#pitch54"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration54">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note55">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration55"/>
-  <musi:pitch rdf:resource="#pitch55"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L67F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">96.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch55">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration55">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence22">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note56"/>
-  <Josq:tenorHasFinalis rdf:resource="#note57"/>
-  <Josq:bassusHasFinalis rdf:resource="#note58"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note56">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration56"/>
-  <musi:pitch rdf:resource="#pitch56"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch56">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration56">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note57">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration57"/>
-  <musi:pitch rdf:resource="#pitch57"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch57">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration57">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note58">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration58"/>
-  <musi:pitch rdf:resource="#pitch58"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L74F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">108.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch58">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration58">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence23">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note59"/>
-  <Josq:tenorHasFinalis rdf:resource="#note60"/>
-  <Josq:bassusHasFinalis rdf:resource="#note61"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note59">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration59"/>
-  <musi:pitch rdf:resource="#pitch59"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch59">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration59">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note60">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration60"/>
-  <musi:pitch rdf:resource="#pitch60"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch60">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration60">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note61">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration61"/>
-  <musi:pitch rdf:resource="#pitch61"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L102F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch61">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration61">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence24">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note62"/>
-  <Josq:tenorHasFinalis rdf:resource="#note63"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration62"/>
-  <musi:pitch rdf:resource="#pitch62"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration62">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration63"/>
-  <musi:pitch rdf:resource="#pitch63"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L143F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration63">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence25">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note64"/>
-  <Josq:tenorHasFinalis rdf:resource="#note65"/>
-  <Josq:bassusHasFinalis rdf:resource="#note66"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration64"/>
-  <musi:pitch rdf:resource="#pitch64"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration64">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration65"/>
-  <musi:pitch rdf:resource="#pitch65"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration65">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration66"/>
-  <musi:pitch rdf:resource="#pitch66"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L194F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration66">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence26">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note67"/>
-  <Josq:tenorHasFinalis rdf:resource="#note68"/>
-  <Josq:bassusHasFinalis rdf:resource="#note69"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note67">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration67"/>
-  <musi:pitch rdf:resource="#pitch67"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch67">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration67">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration68"/>
-  <musi:pitch rdf:resource="#pitch68"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration68">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration69"/>
-  <musi:pitch rdf:resource="#pitch69"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L208F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">324.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration69">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</musi:quarterLength>
-</musi:Duration>
-
-<Zarl:Cadence rdf:about="#cadence27">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <hasOrigin rdf:resource="#cadences.josquinannotations4"/>
-  <Josq:cantusHasFinalis rdf:resource="#note70"/>
-  <Josq:tenorHasFinalis rdf:resource="#note71"/>
-  <Josq:bassusHasFinalis rdf:resource="#note72"/>
-</Zarl:Cadence>
-
-<musi:Note rdf:about="#note70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration70"/>
-  <musi:pitch rdf:resource="#pitch70"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F5</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G4</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration70">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration71"/>
-  <musi:pitch rdf:resource="#pitch71"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F3</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G3</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration71">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
-
-<musi:Note rdf:about="#note72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:duration rdf:resource="#duration72"/>
-  <musi:pitch rdf:resource="#pitch72"/>
-  <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L243F1</musi:id>
-  <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</musi:measureNumber>
-  <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">372.0</musi:offset>
-</musi:Note>
-
-<musi:Pitch rdf:about="#pitch72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:nameWithOctave rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G2</musi:nameWithOctave>
-</musi:Pitch>
-
-<musi:Duration rdf:about="#duration72">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <musi:quarterLength rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</musi:quarterLength>
-</musi:Duration>
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasURL">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
 
 
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#hasVersion -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#hasVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#isMachineAnalysis -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#isMachineAnalysis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#isQuotedIn -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#isQuotedIn">
+        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#id -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#id"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#measureNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#measureNumber"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#nameWithOctave -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#nameWithOctave"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#offset -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#offset"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#quarterLength -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#quarterLength"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicC -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicC"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicF -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicF"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-2 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-2"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD5 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD5"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF2 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF2"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG2 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG2"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Clef -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Clef">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DModePlagalPolyphonicG -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModePlagalPolyphonicG"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedAmbitus -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedAmbitus"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#E4_E5 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E4_E5"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#F4_F5 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F4_F5"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG2 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG2"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#GModePlagalPolyphonicG -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#GModePlagalPolyphonicG"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNote -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNote">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteB-4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteB-4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG3 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG3"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG4 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG4"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Interval -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Interval">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Key -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Key">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Mode -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA-"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB-"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE- -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE-"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModeAuthentic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModeAuthentic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModePlagal -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModePlagal">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Algorithm -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Analysis -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Analysis"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#AnalysisOnto.addCadenceFromJosquinProject -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#AnalysisOnto.addCadenceFromJosquinProject">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#AnalysisOnto.addZarlinoModalAnalysisToWork -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#AnalysisOnto.addZarlinoModalAnalysisToWork">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Analyst -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Analyst"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#AnalyticalInterpretation -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#AnalyticalInterpretation">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#AnalyticalObservation -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#AnalyticalObservation">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Cadences.identifyCadencesFromVoiceAnnotations -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Cadences.identifyCadencesFromVoiceAnnotations">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Cadences.josquinAnnotations -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Cadences.josquinAnnotations">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasAmbitus -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasAmbitus">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasInitialNotes -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasInitialNotes">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasSharps -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#ClefsAndKeysAnalysis.hasSharps">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Composer -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Composer"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Context -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Context"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Editor -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Editor"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Encoder -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Encoder"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Genre -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Genre"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Monophonic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Monophonic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Music21 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Music21">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Part -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Part">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#PitchAnalysisSimple.__init -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#PitchAnalysisSimple.__init">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Polyphonic -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Polyphonic">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Instrumentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Work -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Work">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558 -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#Zarlino_1558">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#TheoreticalModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#hasIRI"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#hasName"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#zarlino1558.getModeFromObservations -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#zarlino1558.getModeFromObservations">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#Duration -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Duration">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#Interval -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Interval">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#Note -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Note">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/music21#Pitch -->
+
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/music21#Pitch">
+        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/analysisOntology#Music21"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#cadences.josquinannotations1 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#cadences.josquinannotations1"/>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysisOntology#cadences.josquinannotations2 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysisOntology#cadences.josquinannotations2"/>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
