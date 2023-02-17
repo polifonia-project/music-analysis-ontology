@@ -22,15 +22,15 @@
     
 
 
-    <!-- http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept -->
+    <!-- http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty -->
 
-    <owl:AnnotationProperty rdf:about="http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept"/>
+    <owl:AnnotationProperty rdf:about="http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty"/>
     
 
 
-    <!-- http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationProperty -->
+    <!-- http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept -->
 
-    <owl:AnnotationProperty rdf:about="http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationProperty"/>
+    <owl:AnnotationProperty rdf:about="http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept"/>
     
 
 
@@ -57,7 +57,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasElaboration">
         <rdfs:range rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration"/>
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -67,7 +66,6 @@
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:range rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone"/>
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -76,7 +74,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine">
         <rdfs:range rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -85,7 +82,6 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasPlagalBassizans">
         <rdfs:range rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#PlagalBassizans"/>
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
@@ -94,16 +90,13 @@
 
     <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep">
         <rdfs:range rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Step"/>
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
     </owl:ObjectProperty>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType">
-        <sherlock:musicAnnotationProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationProperty>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType"/>
     
 
 
@@ -122,6 +115,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
     </owl:Class>
     
 
@@ -130,6 +124,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Step"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
     
@@ -148,6 +143,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
     </owl:Class>
     
 
@@ -202,6 +198,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
     </owl:Class>
     
 
@@ -217,7 +214,9 @@
 
     <!-- http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration"/>
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration">
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasElaboration"/>
+    </owl:Class>
     
 
 
@@ -225,6 +224,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Step"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
     
@@ -288,6 +288,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Step"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
     
@@ -328,6 +329,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLines"/>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
     </owl:Class>
 </rdf:RDF>
 
