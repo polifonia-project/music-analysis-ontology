@@ -140,12 +140,7 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#AscendingLeadingTone">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"/>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
     
@@ -211,6 +206,12 @@
 
     <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"/>
+                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#AscendingLeadingTone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <sherlock:hasImplicitProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"/>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</sherlock:musicAnnotationConcept>
     </owl:Class>
@@ -284,12 +285,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"/>
                 <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150"/>
-                <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>

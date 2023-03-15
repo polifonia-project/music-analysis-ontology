@@ -1,0 +1,398 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#AscendingLeadingTone"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#DescendingLeadingTone"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#AscendingLeadingTone"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#RegularCadence"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#PCadence"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans"
+  } ]
+}, {
+  "@id" : "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Altizans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Antepenultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#AscendingLeadingTone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Bassizans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Cantizans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#DescendingLeadingTone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasElaboration"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Finalis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#PCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Penultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#RegularCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Cadence"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Tenorizans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#hasImplicitProperty" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine"
+  } ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasElaboration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Elaboration"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLeadingTone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#LeadingTone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#MelodicLine"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasPlagalBassizans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#hasStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#Step"
+  } ]
+}, {
+  "@id" : "http://modality-tonality.huma-num.fr/Guillotel_2022#isCadenceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://cidoc-crm.org/html/cidoc_crm_v7.1.2.html#P150",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]
