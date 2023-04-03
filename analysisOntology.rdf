@@ -11,11 +11,7 @@
      xmlns:musi="http://modality-tonality.huma-num.fr/music21#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
-    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/historicalModels/modalityTonality_Zarlino_1558.rdf"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal"/>
     
 
 
@@ -73,162 +69,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#altusHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#bassusHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#cantusHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialNote -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasInitialNote"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasKey"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasNote -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasNote"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchClass -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchClass"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchHigh"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#hasPitchLow"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasAntepenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasFinalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#tenorHasPenultima"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#duration -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#duration"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#pitch -->
-
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/music21#pitch"/>
     
 
 
@@ -344,6 +184,12 @@
     
 
 
+    <!-- http://modality-tonality.huma-num.fr/JosquinProject#hasLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#hasLabel"/>
+    
+
+
     <!-- http://modality-tonality.huma-num.fr/music21#id -->
 
     <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#id"/>
@@ -378,7 +224,6 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#hasAmbitus">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <webPortalProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webPortalProperty>
     </owl:DatatypeProperty>
     
 
@@ -602,607 +447,9 @@
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#Cadence -->
 
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cadence">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cadence">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Josquin"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A2_A3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#A3_A4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ambitus">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
     </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B2_B3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#B3_B4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C3_C4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#C4_C5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicC -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicC"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicF -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModeAuthenticPolyphonicF"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CModePlagalPolyphonicF"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence3_1"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Cadence6_8"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceA4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceB-4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceC4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceD5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceE4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceF4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#CadenceG4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Clef -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Clef">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D3_D4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#D4_D5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModeAuthenticPolyphonicG"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DModePlagalPolyphonicG -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DModePlagalPolyphonicG"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedAmbitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#DimishedCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E3_E4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#E4_E5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#E4_E5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Ethos">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExactAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ExpandedAmbitus"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F3_F4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#F4_F5 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#F4_F5"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Finalis"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisF3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG2 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG2"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#FinalisG3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G2_G3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#G3_G4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#GModePlagalPolyphonicG -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#GModePlagalPolyphonicG"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#ImperfectCadence"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNote -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteB-4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteB-4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteC4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteD4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteF4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG3 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG3"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG4 -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#InitialNoteG4"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Interval -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Interval">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Key -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Key">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#KeyB-"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#MelodicFormula">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#Mode -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#OctaveDivision">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClass">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassA-"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassB-"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassC"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassD"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE- -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassE-"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassF"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PitchClassG"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicAModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicCModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicDModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicEModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicFModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModeAuthentic -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModeAuthentic">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModePlagal -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#PolyphonicGModePlagal">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/Zarlino_1558#Mode"/>
-    </owl:Class>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence -->
-
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/Zarlino_1558#SimpleCadence"/>
     
 
 
@@ -1426,26 +673,6 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558 -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Zarlino_1558">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#TheoreticalModel"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasIRI"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://modality-tonality.huma-num.fr/Zarlino_1558#</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasName"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modalityTonality_Zarlino_1558</owl:hasValue>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#zarlino1558.getModeFromObservations -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#zarlino1558.getModeFromObservations">
@@ -1492,43 +719,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#analyticalobservation1">
         <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AnalyticalObservation"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence1"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence10"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence11"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence12"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence13"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence14"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence15"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence16"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence17"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence18"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence19"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence2"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence20"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence21"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence22"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence23"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence24"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence25"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence26"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence27"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence28"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence29"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence3"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence30"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence31"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence32"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence33"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence34"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence35"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence36"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence37"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence4"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence5"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence6"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence7"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence8"/>
-        <Zarl:hasCadence rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadence9"/>
     </owl:NamedIndividual>
     
 
@@ -1537,8 +727,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence1">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note1"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note2"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1550,8 +738,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence10">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note21"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note22"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1563,8 +749,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence11">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note23"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note24"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1576,9 +760,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence12">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note27"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note25"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note26"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1592,7 +773,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence13">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note28"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
     </owl:NamedIndividual>
@@ -1603,9 +783,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence14">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note31"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note29"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note30"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1618,8 +795,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence15">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note32"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note33"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1631,9 +806,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence16">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:altusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note35"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note34"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note36"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1646,9 +818,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence17">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note39"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note37"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note38"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1662,8 +831,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence18">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note40"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note41"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1675,9 +842,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence19">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note44"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note42"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note43"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1690,8 +854,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence2">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note3"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note4"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1703,8 +865,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence20">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:altusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note45"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note46"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1716,8 +876,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence21">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note47"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note48"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1729,9 +887,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence22">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note51"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note49"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note50"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1744,8 +899,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence23">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note52"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note53"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1757,8 +910,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence24">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note54"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note55"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1770,9 +921,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence25">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:altusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note57"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note56"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note58"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1785,8 +933,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence26">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note59"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note60"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1798,9 +944,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence27">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note63"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note61"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note62"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1813,8 +956,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence28">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note64"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note65"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1826,9 +967,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence29">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note68"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note66"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note67"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1841,9 +979,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence3">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note7"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note5"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note6"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1856,9 +991,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence30">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note71"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note69"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note70"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1871,8 +1003,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence31">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note72"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note73"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1884,9 +1014,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence32">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:altusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note75"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note74"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note76"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1900,8 +1027,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence33">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note77"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note78"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1913,8 +1038,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence34">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note79"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note80"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1926,9 +1049,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence35">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note83"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note81"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note82"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1941,9 +1061,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence36">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note86"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note84"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note85"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1956,9 +1073,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence37">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note89"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note87"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note88"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
@@ -1971,8 +1085,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence4">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note8"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note9"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1984,8 +1096,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence5">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note10"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note11"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -1997,9 +1107,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence6">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:bassusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note14"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note12"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note13"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -2012,8 +1119,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence7">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note15"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note16"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -2025,8 +1130,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence8">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note17"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note18"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -2038,8 +1141,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#cadence9">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
-        <Josq:cantusHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note19"/>
-        <Josq:tenorHasFinalis rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#note20"/>
         <hasOrigin rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cadences.josquinannotations1"/>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</Josq:hasLabel>
         <Josq:hasLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T</Josq:hasLabel>
@@ -2891,8 +1992,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note1">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration1"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch1"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L58F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72.0</musi:offset>
@@ -2904,8 +2003,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note10">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration10"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch10"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L232F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320.0</musi:offset>
@@ -2917,8 +2014,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note11">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration11"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch11"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L232F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320.0</musi:offset>
@@ -2930,8 +2025,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note12">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration12"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch12"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L285F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
@@ -2943,8 +2036,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note13">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration13"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch13"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L285F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
@@ -2956,8 +2047,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note14">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration14"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch14"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L285F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">392.0</musi:offset>
@@ -2969,8 +2058,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note15">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration15"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch15"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L303F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">424.0</musi:offset>
@@ -2982,8 +2069,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note16">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration16"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch16"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L303F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">424.0</musi:offset>
@@ -2995,8 +2080,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note17">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration17"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch17"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L468F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">688.0</musi:offset>
@@ -3008,8 +2091,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note18">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration18"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch18"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L468F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">688.0</musi:offset>
@@ -3021,8 +2102,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note19">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration19"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch19"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L502F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">732.0</musi:offset>
@@ -3034,8 +2113,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note2">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration2"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch2"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L58F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72.0</musi:offset>
@@ -3047,8 +2124,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note20">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration20"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch20"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L502F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">732.0</musi:offset>
@@ -3060,8 +2135,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note21">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration21"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch21"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L522F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">768.0</musi:offset>
@@ -3073,8 +2146,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note22">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration22"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch22"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L522F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">768.0</musi:offset>
@@ -3086,8 +2157,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note23">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration23"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch23"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L562F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">832.0</musi:offset>
@@ -3099,8 +2168,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note24">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration24"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch24"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L562F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">832.0</musi:offset>
@@ -3112,8 +2179,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note25">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration25"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch25"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L585F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">864.0</musi:offset>
@@ -3125,8 +2190,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note26">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration26"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch26"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L592F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">872.0</musi:offset>
@@ -3138,8 +2201,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note27">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration27"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch27"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L585F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">864.0</musi:offset>
@@ -3151,8 +2212,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note28">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration28"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch28"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L578F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">856.0</musi:offset>
@@ -3164,8 +2223,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note29">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration29"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch29"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L800F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1232.0</musi:offset>
@@ -3177,8 +2234,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note3">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration3"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch3"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L146F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">184.0</musi:offset>
@@ -3190,8 +2245,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note30">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration30"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch30"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L800F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1232.0</musi:offset>
@@ -3203,8 +2256,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note31">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration31"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch31"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L800F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1232.0</musi:offset>
@@ -3216,8 +2267,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note32">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration32"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch32"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L837F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1280.0</musi:offset>
@@ -3229,8 +2278,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note33">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration33"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch33"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L837F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1280.0</musi:offset>
@@ -3242,8 +2289,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note34">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration34"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch34"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L925F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1400.0</musi:offset>
@@ -3255,8 +2300,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note35">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration35"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch35"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L925F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1400.0</musi:offset>
@@ -3268,8 +2311,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note36">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration36"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch36"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L925F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1400.0</musi:offset>
@@ -3281,8 +2322,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note37">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration37"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch37"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1024F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1536.0</musi:offset>
@@ -3294,8 +2333,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note38">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration38"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch38"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1024F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1536.0</musi:offset>
@@ -3307,8 +2344,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note39">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration39"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch39"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1024F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1536.0</musi:offset>
@@ -3320,8 +2355,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note4">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration4"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch4"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L146F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">184.0</musi:offset>
@@ -3333,8 +2366,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note40">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration40"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch40"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1055F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1592.0</musi:offset>
@@ -3346,8 +2377,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note41">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration41"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch41"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1055F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1592.0</musi:offset>
@@ -3359,8 +2388,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note42">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration42"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch42"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1084F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1624.0</musi:offset>
@@ -3372,8 +2399,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note43">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration43"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch43"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1084F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1624.0</musi:offset>
@@ -3385,8 +2410,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note44">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration44"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch44"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1084F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1624.0</musi:offset>
@@ -3398,8 +2421,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note45">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration45"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch45"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1097F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1644.0</musi:offset>
@@ -3411,8 +2432,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note46">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration46"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch46"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1097F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1644.0</musi:offset>
@@ -3424,8 +2443,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note47">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration47"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch47"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1107F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1656.0</musi:offset>
@@ -3437,8 +2454,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note48">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration48"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch48"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1107F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1656.0</musi:offset>
@@ -3450,8 +2465,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note49">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration49"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch49"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1200F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1768.0</musi:offset>
@@ -3463,8 +2476,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note5">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration5"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch5"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L172F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">224.0</musi:offset>
@@ -3476,8 +2487,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note50">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration50"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch50"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1200F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1768.0</musi:offset>
@@ -3489,8 +2498,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note51">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration51"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch51"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1200F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1768.0</musi:offset>
@@ -3502,8 +2509,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note52">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration52"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch52"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1259F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1872.0</musi:offset>
@@ -3515,8 +2520,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note53">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration53"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch53"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1259F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1872.0</musi:offset>
@@ -3528,8 +2531,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note54">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration54"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch54"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1286F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920.0</musi:offset>
@@ -3541,8 +2542,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note55">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration55"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch55"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1286F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920.0</musi:offset>
@@ -3554,8 +2553,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note56">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration56"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch56"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1301F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1944.0</musi:offset>
@@ -3567,8 +2564,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note57">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration57"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch57"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1301F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1944.0</musi:offset>
@@ -3580,8 +2575,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note58">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration58"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch58"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1301F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1944.0</musi:offset>
@@ -3593,8 +2586,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note59">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration59"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch59"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1318F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1984.0</musi:offset>
@@ -3606,8 +2597,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note6">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration6"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch6"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L172F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">224.0</musi:offset>
@@ -3619,8 +2608,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note60">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration60"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch60"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1318F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1984.0</musi:offset>
@@ -3632,8 +2619,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note61">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration61"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch61"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1359F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2032.0</musi:offset>
@@ -3645,8 +2630,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note62">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration62"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch62"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1359F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2032.0</musi:offset>
@@ -3658,8 +2641,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note63">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration63"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch63"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1359F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2032.0</musi:offset>
@@ -3671,8 +2652,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note64">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration64"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch64"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1458F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2184.0</musi:offset>
@@ -3684,8 +2663,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note65">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration65"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch65"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1458F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2184.0</musi:offset>
@@ -3697,8 +2674,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note66">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration66"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch66"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1520F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2272.0</musi:offset>
@@ -3710,8 +2685,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note67">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration67"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch67"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1520F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2272.0</musi:offset>
@@ -3723,8 +2696,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note68">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration68"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch68"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1520F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2272.0</musi:offset>
@@ -3736,8 +2707,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note69">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration69"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch69"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1590F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2384.0</musi:offset>
@@ -3749,8 +2718,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note7">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration7"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch7"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L172F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">224.0</musi:offset>
@@ -3762,8 +2729,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note70">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration70"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch70"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1590F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2384.0</musi:offset>
@@ -3775,8 +2740,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note71">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration71"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch71"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1590F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2384.0</musi:offset>
@@ -3788,8 +2751,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note72">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration72"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch72"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1630F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2456.0</musi:offset>
@@ -3801,8 +2762,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note73">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration73"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch73"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1630F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2456.0</musi:offset>
@@ -3814,8 +2773,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note74">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration74"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch74"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1698F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2560.0</musi:offset>
@@ -3827,8 +2784,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note75">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration75"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch75"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1698F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2560.0</musi:offset>
@@ -3840,8 +2795,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note76">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration76"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch76"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1698F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2560.0</musi:offset>
@@ -3853,8 +2806,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note77">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration77"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch77"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1720F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2592.0</musi:offset>
@@ -3866,8 +2817,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note78">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration78"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch78"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1720F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2592.0</musi:offset>
@@ -3879,8 +2828,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note79">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration79"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch79"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1732F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2616.0</musi:offset>
@@ -3892,8 +2839,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note8">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration8"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch8"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L201F5</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">276.0</musi:offset>
@@ -3905,8 +2850,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note80">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration80"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch80"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1732F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2616.0</musi:offset>
@@ -3918,8 +2861,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note81">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration81"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch81"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1739F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2632.0</musi:offset>
@@ -3931,8 +2872,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note82">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration82"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch82"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1739F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2632.0</musi:offset>
@@ -3944,8 +2883,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note83">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration83"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch83"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1739F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2632.0</musi:offset>
@@ -3957,8 +2894,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note84">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration84"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch84"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1782F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2712.0</musi:offset>
@@ -3970,8 +2905,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note85">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration85"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch85"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1782F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2712.0</musi:offset>
@@ -3983,8 +2916,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note86">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration86"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch86"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1782F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2712.0</musi:offset>
@@ -3996,8 +2927,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note87">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration87"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch87"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1792F7</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2736.0</musi:offset>
@@ -4009,8 +2938,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note88">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration88"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch88"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1792F3</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2736.0</musi:offset>
@@ -4022,8 +2949,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note89">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration89"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch89"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L1792F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2736.0</musi:offset>
@@ -4035,8 +2960,6 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#note9">
         <rdf:type rdf:resource="http://modality-tonality.huma-num.fr/music21#Note"/>
-        <musi:duration rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#duration9"/>
-        <musi:pitch rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#pitch9"/>
         <musi:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">note-L201F1</musi:id>
         <musi:measureNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</musi:measureNumber>
         <musi:offset rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">276.0</musi:offset>
