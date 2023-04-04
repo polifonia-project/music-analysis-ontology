@@ -12,7 +12,6 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal">
-        <owl:imports rdf:resource="http://modality-tonality.huma-num.fr/music21"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
     </owl:Ontology>
     
@@ -458,49 +457,25 @@
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#Cantizans -->
 
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans">
         <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines -->
 
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#JosquinClasses"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://modality-tonality.huma-num.fr/JosquinProject#Step -->
 
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Step">
+    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Step">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#JosquinClasses"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Interval -->
-
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/music21#Interval">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Music21Classes"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Note -->
-
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/music21#Note">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Music21Classes"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#Pitch -->
-
-    <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/music21#Pitch">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Music21Classes"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
