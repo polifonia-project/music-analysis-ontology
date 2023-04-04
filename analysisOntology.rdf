@@ -13,7 +13,7 @@
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/music21"/>
     </owl:Ontology>
     
 
@@ -184,42 +184,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#hasLabel -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#hasLabel"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#id -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#id"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#measureNumber -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#measureNumber"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#nameWithOctave -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#nameWithOctave"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#offset -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#offset"/>
-    
-
-
-    <!-- http://modality-tonality.huma-num.fr/music21#quarterLength -->
-
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/music21#quarterLength"/>
     
 
 
