@@ -13,7 +13,7 @@
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal">
         <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
-        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/music21"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
     </owl:Ontology>
     
 
