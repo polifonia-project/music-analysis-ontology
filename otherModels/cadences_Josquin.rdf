@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/JosquinProject"/>
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin"/>
     
 
 
@@ -21,33 +21,33 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#altusHasFinalis -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#altusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#altusHasFinalis">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#altusHasFinalis">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#bassusHasFinalis -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#bassusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#bassusHasFinalis">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#bassusHasFinalis">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#cantusHasFinalis -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#cantusHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#cantusHasFinalis">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#cantusHasFinalis">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#tenorHasFinalis -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis -->
 
-    <owl:ObjectProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#tenorHasFinalis">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
@@ -64,9 +64,9 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#hasLabel -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLabel -->
 
-    <owl:DatatypeProperty rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#hasLabel"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLabel"/>
     
 
 
@@ -81,207 +81,207 @@
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Altizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Altizans">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#AltizansEvadedByContinuation -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#AltizansEvadedByContinuation -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#AltizansEvadedByContinuation">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Altizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#AltizansEvadedByContinuation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans"/>
         <rdfs:comment>added by CGN</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#AltizansEvadedByDropout -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#AltizansEvadedByDropout -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#AltizansEvadedByDropout">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Altizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#AltizansEvadedByDropout">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans"/>
         <rdfs:comment>added by CGN</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Bassizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByContinuation -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByContinuation -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByContinuation">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByContinuation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
         <rdfs:comment>added by CGN</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByDropout -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByDropout -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByDropout">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByDropout">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByStepUp -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByStepUp -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByStepUp">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByStepUp">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByThirdDown -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByThirdDown -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#BassizansEvadedByThirdDown">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#BassizansEvadedByThirdDown">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Cadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Cantizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByContinuation -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByContinuation -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByContinuation">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByContinuation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
         <rdfs:comment>added by CGN</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByDropout -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByDropout -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByDropout">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByDropout">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByFourthUp -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByFourthUp -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#CantizansEvadedByFourthUp">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cantizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#CantizansEvadedByFourthUp">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Finalis -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Finalis -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Finalis">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Step"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Finalis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#LeapingContratenor -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#LeapingContratenor -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#LeapingContratenor">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#LeapingContratenor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#P_Cadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#P_Cadence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#PhrygianCadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#PhrygianCadence -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#PhrygianCadence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#P_Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#PhrygianCadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#PlagalBassizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalBassizans -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#PlagalBassizans">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Bassizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalBassizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#PlagalCadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalCadence -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#PlagalCadence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#P_Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalCadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#RegularCadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#RegularCadence -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#RegularCadence">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#RegularCadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Step -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Step"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#Tenorizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#Tenorizans">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#MelodicLines"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByContinuation -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByContinuation -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByContinuation">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Tenorizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByContinuation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans"/>
         <rdfs:comment>added by CGN</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByDropout -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByDropout -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByDropout">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Tenorizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByDropout">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans"/>
     </owl:Class>
     
 
 
-    <!-- http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByStepUp -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByStepUp -->
 
-    <owl:Class rdf:about="http://modality-tonality.huma-num.fr/JosquinProject#TenorizansEvadedByStepUp">
-        <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/JosquinProject#Tenorizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#TenorizansEvadedByStepUp">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans"/>
     </owl:Class>
 </rdf:RDF>
 
