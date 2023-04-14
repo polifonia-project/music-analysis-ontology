@@ -45,6 +45,20 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis">
@@ -107,6 +121,14 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Antepenultima -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Antepenultima">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans">
@@ -150,13 +172,40 @@
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+    </owl:Class>
     
 
 
@@ -193,6 +242,22 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#FormalCadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#FormalCadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#IrregularCadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#IrregularCadence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#LeapingContratenor -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#LeapingContratenor">
@@ -203,14 +268,33 @@
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Antepenultima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Penultima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Penultima -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Penultima">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
     </owl:Class>
     
 
@@ -218,7 +302,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#PhrygianCadence -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#PhrygianCadence">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     </owl:Class>
     
 
@@ -234,14 +318,14 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalCadence -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#PlagalCadence">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#P_Cadence"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#RegularCadence -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#SimpleCadence -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#RegularCadence">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#SimpleCadence">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence"/>
     </owl:Class>
     
