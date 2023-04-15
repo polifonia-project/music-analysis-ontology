@@ -9,8 +9,8 @@
      xmlns:musi="https://w3id.org/polifonia/ontology/modal-tonal/music21#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/modal-tonal">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
     </owl:Ontology>
     
 
@@ -615,14 +615,6 @@
 
     <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cadence">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#JosquinClasses"/>
-    </rdf:Description>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans -->
-
-    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
     </rdf:Description>
     
 
