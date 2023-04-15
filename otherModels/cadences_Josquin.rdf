@@ -27,6 +27,12 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasNote"/>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep">
