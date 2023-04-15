@@ -21,30 +21,6 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#altusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#altusHasFinalis">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#bassusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#bassusHasFinalis">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#cantusHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#cantusHasFinalis">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasLine"/>
@@ -55,14 +31,6 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#tenorHasFinalis">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
@@ -98,7 +66,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Altizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine"/>
     </owl:Class>
     
 
@@ -132,7 +100,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Bassizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine"/>
     </owl:Class>
     
 
@@ -204,7 +172,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Cantizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine"/>
     </owl:Class>
     
 
@@ -258,9 +226,9 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#hasStep"/>
@@ -340,7 +308,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Tenorizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLines"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#MelodicLine"/>
     </owl:Class>
     
 
