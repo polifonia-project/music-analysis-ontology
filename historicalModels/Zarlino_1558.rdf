@@ -522,6 +522,12 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal#hasVoice -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#hasVoice"/>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#highestNoteDoesNotReachScaleDegree -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#highestNoteDoesNotReachScaleDegree">
@@ -784,7 +790,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#A2_A3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#A2_A3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -792,7 +798,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#A3_A4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#A3_A4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -800,7 +806,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#A4_A5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#A4_A5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -2080,7 +2086,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AModeAuthenticA"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>9th mode untransposed</rdfs:label>
     </owl:Class>
@@ -2126,7 +2131,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AModeAuthenticALowerOctave"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2233,7 +2237,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AModeAuthenticD"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModeAuthentic"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>9th mode on D</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3040,7 +3044,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AModePlagalA"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3147,7 +3150,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AModePlagalD"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>10th mode on D</rdfs:label>
     </owl:Class>
@@ -3213,7 +3215,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Adulation -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Adulation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -3227,7 +3229,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Anger -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Anger">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -3246,6 +3248,12 @@
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticMode">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasOctaveDivision"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#HarmonicDivision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>1558, 4, 12</dc:source>
         <rdfs:label>authentic modes</rdfs:label>
         <rdfs:label>odd numbered modes</rdfs:label>
@@ -3377,7 +3385,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#B-2_B-3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#B-2_B-3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3385,7 +3393,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#B2_B3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#B2_B3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3393,7 +3401,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#B3_B4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#B3_B4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3401,7 +3409,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#B4_B5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#B4_B5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3425,7 +3433,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#C2_C3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#C2_C3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3433,7 +3441,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#C3_C4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#C3_C4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3441,7 +3449,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#C4_C5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#C4_C5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -3449,7 +3457,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#C5_C6 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#C5_C6">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -4626,7 +4634,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CModeAuthenticC"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4733,7 +4740,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CModeAuthenticCUpperOctave"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:comment>This variant is deduced from de musical example in 1448, 4, 18</rdfs:comment>
         <rdfs:label>11th mode untransposed</rdfs:label>
@@ -4807,7 +4813,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CModeAuthenticF"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>11th mode on F</rdfs:label>
     </owl:Class>
@@ -5607,7 +5612,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CModePlagalC"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5725,7 +5729,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>12th mode transposed on F</rdfs:label>
     </owl:Class>
@@ -5802,7 +5805,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceA -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceA">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -5850,7 +5853,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceB -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceB">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -5858,7 +5861,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceB- -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceB-">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -5946,7 +5949,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceC -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceC">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -5994,7 +5997,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceD -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceD">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -6042,7 +6045,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceE -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceE">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -6050,7 +6053,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceE- -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceE-">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -6130,7 +6133,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceF -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceF">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -6178,7 +6181,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceG -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceG">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Step"/>
     </owl:Class>
     
 
@@ -6223,15 +6226,6 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#CadenceStep">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Cadence"/>
-        <dc:source>1558, 3, 53</dc:source>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Calamitous -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Calamitous">
@@ -6243,7 +6237,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Calamity -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Calamity">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
@@ -6252,7 +6246,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Captivity -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Captivity">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
@@ -6262,7 +6256,6 @@
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Cheerful">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
     </owl:Class>
     
 
@@ -6270,7 +6263,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Cheerfulness -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Cheerfulness">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 26</dc:source>
     </owl:Class>
     
@@ -6279,7 +6272,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Civilized -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Civilized">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -6293,7 +6286,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Commiseration -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Commiseration">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -6347,7 +6340,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#D2_D3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#D2_D3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -6355,7 +6348,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#D3_D4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#D3_D4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
         <rdfs:label>D_d</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6370,7 +6363,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#D4_D5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#D4_D5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -7641,76 +7634,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticGPolyphonic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticGPolyphonic">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#altusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#D4_D5"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#D3_D4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasClef"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#f_3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasFinalis"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#G4_G5"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasClef"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g_2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasFinalis"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasRepercussio"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Interval_g1_d2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasKey"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#KeyB-"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#tenorHasAmbitus"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#G3_G4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <dc:source>1558, 4, 17</dc:source>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticMonophonicC -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticMonophonicC">
@@ -7913,7 +7836,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticC"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <dc:source>1558, 3, 77</dc:source>
         <rdfs:label>1st mode on C</rdfs:label>
@@ -7987,7 +7909,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticD"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -8116,8 +8037,67 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#DModeAuthenticG"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#altusHasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#D4_D5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#D3_D4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#f_3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#bassusHasFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#G4_G5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g_2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#g4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#cantusHasRepercussio"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Interval_g1_d2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasKey"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#KeyB-"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#tenorHasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#G3_G4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>1558, 4, 17</dc:source>
         <rdfs:comment>transposition by upper fourth by analogy to g mode, 1558, 4, 24</rdfs:comment>
         <rdfs:label>1st mode on G</rdfs:label>
@@ -9093,7 +9073,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#DModePlagalD"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -9200,7 +9179,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#DModePlagalG"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>2nd mode on G</rdfs:label>
     </owl:Class>
@@ -9275,7 +9253,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Deception -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Deception">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -9323,7 +9301,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#E2_E3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#E2_E3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -9331,7 +9309,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#E3_E4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#E3_E4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -9339,7 +9317,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#E4_E5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#E4_E5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -10139,7 +10117,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#EModeAuthenticA"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>3rd mode on A</rdfs:label>
     </owl:Class>
@@ -10216,7 +10193,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#EModeAuthenticE"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11228,7 +11204,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#EModePlagalA"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11352,7 +11327,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#EModePlagalE"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -11445,7 +11419,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#EntreatingTheGraceOfTheLord -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#EntreatingTheGraceOfTheLord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -11475,7 +11449,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#F2_F3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#F2_F3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -11483,7 +11457,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#F3_F4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#F3_F4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -11491,7 +11465,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#F4_F5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#F4_F5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -12343,7 +12317,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#FModeAuthenticB-"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>5th mode on B-</rdfs:label>
     </owl:Class>
@@ -12416,7 +12389,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#FModeAuthenticF"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13318,7 +13290,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#FModePlagalB-"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>6th mode on B-</rdfs:label>
     </owl:Class>
@@ -13391,7 +13362,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#FModePlagalF"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13505,9 +13475,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Finalis -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Finalis">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Cadence"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Finalis"/>
     
 
 
@@ -13871,7 +13839,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#G2_G3 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#G2_G3">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -13879,7 +13847,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#G3_G4 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#G3_G4">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -13887,7 +13855,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#G4_G5 -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#G4_G5">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ambitus"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ExactAmbitus"/>
     </owl:Class>
     
 
@@ -14815,7 +14783,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#GModeAuthenticC"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>7th mode on C</rdfs:label>
     </owl:Class>
@@ -14888,7 +14855,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#AuthenticPolyphonicMode"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#GModeAuthenticG"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModeAuthentic"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -15986,7 +15952,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#GModePlagalC"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:label>8th mode on C</rdfs:label>
     </owl:Class>
@@ -16059,7 +16024,6 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#GModePlagalG"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PlagalPolyphonicMode"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModePlagal"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16177,7 +16141,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Grave -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Grave">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -16689,9 +16653,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#IntervalSpecies -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#IntervalSpecies">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Interval"/>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#IntervalSpecies"/>
     
 
 
@@ -17247,7 +17209,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Lamentation -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Lamentation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 20</dc:source>
     </owl:Class>
     
@@ -17264,7 +17226,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Languor -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Languor">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -17281,7 +17243,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Lasciviousness -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Lasciviousness">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -17289,7 +17251,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Loneliness -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Loneliness">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
@@ -17298,7 +17260,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Love -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Love">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -17344,7 +17306,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Misery -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Misery">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
@@ -17417,6 +17379,13 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#MonophonicMode">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasVoice"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Voice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -17691,7 +17660,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Perturbation -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Perturbation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -17786,6 +17755,12 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PlagalMode">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasOctaveDivision"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#ArithmeticDivision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <dc:source>1558, 4, 12</dc:source>
         <rdfs:label>collateral mode</rdfs:label>
         <rdfs:label>even numbered modes</rdfs:label>
@@ -17921,82 +17896,17 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicAModePlagal"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicCModePlagal"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicDModePlagal"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicEModePlagal"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicFModePlagal"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModeAuthentic -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModeAuthentic"/>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModePlagal -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicGModePlagal"/>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#PolyphonicMode">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#hasVoice"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Voice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -18425,7 +18335,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Quiet -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Quiet">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18474,7 +18384,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Sadness -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Sadness">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
@@ -18539,7 +18449,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Slander -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Slander">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18547,7 +18457,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Soft -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Soft">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 26</dc:source>
     </owl:Class>
     
@@ -18564,7 +18474,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Sonorous -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Sonorous">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 26</dc:source>
     </owl:Class>
     
@@ -18590,10 +18500,10 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#Subject -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal#Step -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Subject">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Text"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Step">
+        <dc:source>1558, 3, 53</dc:source>
     </owl:Class>
     
 
@@ -18683,7 +18593,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Sweet -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Sweet">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18707,7 +18617,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Tame -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Tame">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18723,7 +18633,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Tears -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Tears">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 20</dc:source>
     </owl:Class>
     
@@ -18737,16 +18647,10 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal#Text -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Text"/>
-    
-
-
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Thoughts -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Thoughts">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18763,7 +18667,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Threat -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Threat">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18771,7 +18675,7 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Tranquility -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Tranquility">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
     
 
@@ -18806,15 +18710,21 @@ The instances have note been associated to mode 1 to avoid confusion.</rdfs:comm
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Victory -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Victory">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
     </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal#Voice -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Voice"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/modal-tonal#Weeping -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal#Weeping">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Subject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal#Ethos"/>
         <dc:source>1558, 4, 19</dc:source>
     </owl:Class>
     
