@@ -1,0 +1,102 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]

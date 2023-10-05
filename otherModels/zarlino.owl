@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
