@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="https://w3id.org/polifonia/ontology/modal-tonal/josquin" uri="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/cadences_Josquin.rdf"/>
-    <uri id="Imports Wizard Entry" name="https://w3id.org/polifonia/ontology/modal-tonal/music21" uri="https://raw.githubusercontent.com/polifonia-project/modal-tonal-ontology/main/otherModels/music21.rdf"/>
+    <uri id="Imports Wizard Entry" name="urn:absolute:/1.0" uri="https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/historicalModels/Zarlino_1558.rdf"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="http://modality-tonality.huma-num.fr/Guillotel_2022" uri="otherModels/cadences_Guillotel.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="http://modality-tonality.huma-num.fr/JosquinProject" uri="otherModels/cadences_Josquin.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="http://modality-tonality.huma-num.fr/music21" uri="otherModels/music21.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius" uri="historicalModels/modalityTonality_Praetorius_1619.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="https://w3id.org/polifonia/ontology/modal-tonal" uri="analysisOntology.rdf"/>
-        <uri id="Automatically generated entry, Timestamp=1681734066236" name="shadowed:https://w3id.org/polifonia/ontology/modal-tonal" uri="historicalModels/modalityTonality_Zarlino_1558.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="http://modality-tonality.huma-num.fr/Guillotel_2022" uri="otherModels/cadences_Guillotel.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="http://modality-tonality.huma-num.fr/JosquinProject" uri="otherModels/cadences_Josquin.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="http://modality-tonality.huma-num.fr/music21" uri="otherModels/music21.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius" uri="historicalModels/Praetorius_1619.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="duplicate:https://w3id.org/polifonia/ontology/modal-tonal" uri="analysisOntology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="duplicate:https://w3id.org/polifonia/ontology/modal-tonal" uri="Zarlino_1558.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1696439167694" name="shadowed:https://w3id.org/polifonia/ontology/modal-tonal" uri="historicalModels/Zarlino_1558.rdf"/>
     </group>
 </catalog>
