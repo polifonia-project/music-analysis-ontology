@@ -1,0 +1,124 @@
+[ {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#ThematicMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Augmentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Counterpuntal_treatment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Coda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#CounterExposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#CounterFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Counterpuntal_treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Countersubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#ThematicMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Diminution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Counterpuntal_treatment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#DoubleFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Exposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Inversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Counterpuntal_treatment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#PermutationFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#QuadrupleFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Retrograde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Counterpuntal_treatment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#SimpleFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Stretto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Sections"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Subject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#ThematicMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#ThematicMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#TripleFugue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Fugue#Fugue"
+  } ]
+} ]
