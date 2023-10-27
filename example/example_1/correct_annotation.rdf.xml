@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://modality-tonality.huma-num.fr/analysis/"
+     xml:base="http://modality-tonality.huma-num.fr/analysis/"
+     xmlns:mp="https://w3id.org/polifonia/ontology/music-projection/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cido="http://www.cidoc-crm.org/cidoc-crm/"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/"
+     xmlns:musi="https://w3id.org/polifonia/ontology/music-meta/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:term="http://purl.org/dc/terms/"
+     xmlns:zarl="https://w3id.org/polifonia/ontology/music-analysis/zarlino/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:music-representation="https://w3id.org/polifonia/ontology/music-representation/">
+    <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/analysis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasEndMusicTimeIndex -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasEndMusicTimeIndex"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMusicTimeDuration"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasMusicTimeIndexComponent"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasPart -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasPart"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasStartMusicTimeIndex -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasStartMusicTimeIndex"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasValue -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasValue"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasValueType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasValueType"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDerivedFrom"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/core/isPartOf"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+    
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasInstrumentation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasInstrumentation"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/hasScore -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-meta/hasScore"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/hasDuration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-projection/hasDuration"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/hasOctave -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-projection/hasOctave"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/hasPitch -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/hasPitchClass -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/describesFragment -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-representation/describesFragment"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/hasFragment -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-representation/hasFragment"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/hasObservation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-representation/hasObservation"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/hasSubject -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-representation/hasSubject"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/hasTemporalLocation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-representation/hasTemporalLocation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/hasValue -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/core/hasValue"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/hasOctave -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/polifonia/ontology/music-projection/hasOctave"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeDuration -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeDuration"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeIndex -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndex"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeIndexComponent"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/core/MusicTimeInterval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/core/MusicTimeInterval"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/CompositionObject -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/CompositionObject"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/DigitalScore -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/DigitalScore"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/Instrumentation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/Instrumentation"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-meta/MusicEntity -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-meta/MusicEntity"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Note -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Pitch -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Pitch"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/Annotation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-representation/Annotation"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/Fragment -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-representation/Fragment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysis#b5bc9293-120d-4422-8573-3b2c1e952a69 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysis#b5bc9293-120d-4422-8573-3b2c1e952a69">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+        <zarl:hasDegree rdf:resource="http://modality-tonality.huma-num.fr/analysis#93a4ba9c-d357-49ac-b8a4-0df47568a8a2"/>
+        <term:created>2023-10-09T07:18:24.981375087Z</term:created>
+        <term:creator>http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysis#cc6e399a-4a14-407f-b4b5-831fb48ae0e6 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysis#cc6e399a-4a14-407f-b4b5-831fb48ae0e6">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+        <zarl:hasFinalis rdf:resource="http://my-resource-iri/76ca25c6-c5e6-45a8-929d-227b170f376b_note-L243F1"/>
+        <zarl:isInDiatonicSystem rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed"/>
+        <core:isDefinedBy rdf:resource="http://modality-tonality.huma-num.fr/analysis#0ec9f72b-6e50-44b3-89e2-5d70b5c6b728"/>
+        <core:isDefinedBy rdf:resource="http://modality-tonality.huma-num.fr/analysis#b5bc9293-120d-4422-8573-3b2c1e952a69"/>
+        <term:created>2023-10-09T07:30:36.640110972Z</term:created>
+        <term:creator>http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysis#0ec9f72b-6e50-44b3-89e2-5d70b5c6b728 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysis#0ec9f72b-6e50-44b3-89e2-5d70b5c6b728">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+        <zarl:hasDegree rdf:resource="http://modality-tonality.huma-num.fr/analysis#6a0f59a5-327e-4953-a6d6-c7fa868d1ac1"/>
+        <term:created>2023-10-09T07:29:22.913169943Z</term:created>
+        <term:creator>http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysis#6a0f59a5-327e-4953-a6d6-c7fa868d1ac1 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysis#6a0f59a5-327e-4953-a6d6-c7fa868d1ac1">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"/>
+        <zarl:hasTargetNote rdf:resource="http://my-resource-iri/76ca25c6-c5e6-45a8-929d-227b170f376b_note-L243F1"/>
+        <term:created>2023-10-09T07:29:55.818333894Z</term:created>
+        <term:creator>http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://modality-tonality.huma-num.fr/analysis#93a4ba9c-d357-49ac-b8a4-0df47568a8a2 -->
+
+    <owl:NamedIndividual rdf:about="http://modality-tonality.huma-num.fr/analysis#93a4ba9c-d357-49ac-b8a4-0df47568a8a2">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"/>
+        <zarl:hasTargetNote rdf:resource="http://my-resource-iri/76ca25c6-c5e6-45a8-929d-227b170f376b_note-L51F1"/>
+        <term:created>2023-10-09T07:19:12.415897686Z</term:created>
+        <term:creator>http://data-iremus.huma-num.fr/id/bf2213e9-c8db-4c96-97b8-8eaa4b70c9b3</term:creator>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
