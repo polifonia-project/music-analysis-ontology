@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:mr="https://w3id.org/polifonia/ontology/music-representation/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://w3id.org/polifonia/ontology/core/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis">
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-representation/"/>
+        <ns:licence rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dcterms:creator xml:lang="en">Nicolas Lazzari</dcterms:creator>
+        <dcterms:description xml:lang="en">The Music Analysis ontology implements different musical theories that are used by expert to analyse musical composition. Each theory extends the rudiments defined by the Music Projection module.
+
+The music analysis module acts as an hub that imports all the different theories, implemented as submodules.</dcterms:description>
+        <dcterms:issued xml:lang="en">30/07/2023</dcterms:issued>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dcterms:modified xml:lang="en">30/07/2023</dcterms:modified>
+        <dcterms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dcterms:title xml:lang="en">Music Analysis Ontology</dcterms:title>
+        <vann:preferredNamespacePrefix>ma:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/"/>
+        <rdfs:comment xml:lang="en">The Music Analysis ontology implements different musical theories that are used by expert to analyse musical composition. Each theory extends the rudiments defined by the Music Projection module.
+
+The music analysis module acts as an hub that imports all the different theories, implemented as submodules.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Polifonia Ontology Network</rdfs:isDefinedBy>
+        <rdfs:label>Music Analysis Ontology</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/definesProjection -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/definesProjection">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/polifonia/ontology/core/defines"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/TheoryContribution -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/TheoryContribution">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgentRole"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgent"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/hasAgentRole"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/core/AgentRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Situation where an agent contribute to the definition, formalisation or interpretation of a musical theory.</rdfs:comment>
+        <rdfs:label>Theory Contribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-representation/AnalyticalReference -->
+
+    <rdf:Description rdf:about="https://w3id.org/polifonia/ontology/music-representation/AnalyticalReference">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/defines"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-representation/MusicProjection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/defines"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-representation/MusicProjection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/core/involvesAgent"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/TheoryContribution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis">
+        <rdf:type rdf:resource="http://purl.org/vocab/vann/Vocabulary"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
