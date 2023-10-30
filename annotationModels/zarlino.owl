@@ -33,9 +33,15 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy"/>
     
 
 
@@ -74,7 +80,7 @@
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesTargetNote"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -103,6 +109,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
