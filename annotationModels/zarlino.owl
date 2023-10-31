@@ -39,6 +39,12 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote"/>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy"/>
