@@ -41,7 +41,9 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote">
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    </owl:ObjectProperty>
     
 
 
@@ -160,6 +162,12 @@
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
     </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Note -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Note"/>
 </rdf:RDF>
 
 
