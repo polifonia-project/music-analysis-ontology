@@ -652,6 +652,22 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/VocePiena -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/VocePiena">
@@ -794,7 +810,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed"/>
     </owl:NamedIndividual>
     
 
@@ -802,7 +818,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untrasposed -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untrasposed">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Untransposed"/>
     </owl:NamedIndividual>
     
 
