@@ -467,6 +467,18 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isInDiatonicSystem"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/composedOfMode"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
             </owl:Restriction>
@@ -799,10 +811,10 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-projection/Bb"/>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
     
 
@@ -1137,155 +1149,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Irregular cadence - Reference:A Target:Bb</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
-                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
-                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
-                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Bb"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>Regular cadence - Reference:F Target:C</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -1426,6 +1289,155 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Irregular cadence - Reference:A Target:Bb</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Bb"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -2776,155 +2788,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Regular cadence - Reference:A Target:C</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
-                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
-                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
-                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>Irregular cadence - Reference:G Target:E</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -3065,6 +2928,155 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Regular cadence - Reference:A Target:C</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/C"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -6203,155 +6215,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Regular cadence - Reference:A Target:A</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
-                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
-                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
-                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>Regular cadence - Reference:C Target:G</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -6460,6 +6323,155 @@
                                                                                                 <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
                                                                                                 <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
                                                                                                 <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/G"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Regular cadence - Reference:A Target:A</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
                                                                                             </rdf:Description>
                                                                                         </rdf:first>
                                                                                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -7842,155 +7854,6 @@
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Irregular cadence - Reference:A Target:B</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
-                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
-                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
-                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
-                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
-                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
-                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
-                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
-                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                <rdf:first>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
-                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
-                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:first>
-                                                                                <rdf:rest>
-                                                                                    <rdf:Description>
-                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                                        <rdf:first>
-                                                                                            <rdf:Description>
-                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
-                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
-                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
-                                                                                            </rdf:Description>
-                                                                                        </rdf:first>
-                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                                    </rdf:Description>
-                                                                                </rdf:rest>
-                                                                            </rdf:Description>
-                                                                        </rdf:rest>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
-                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
-                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
         <rdfs:label>Regular cadence - Reference:E Target:B</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -8131,6 +7994,155 @@
                         <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
                         <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
                         <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Irregular cadence - Reference:A Target:B</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasFinalis"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fn"/>
+                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/fp"/>
+                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/A"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/core/isDefinedBy"/>
+                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/m"/>
+                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/cp"/>
+                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitch"/>
+                                                                                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tn"/>
+                                                                                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                        <rdf:first>
+                                                                                            <rdf:Description>
+                                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasPitchClass"/>
+                                                                                                <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/tp"/>
+                                                                                                <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-projection/B"/>
+                                                                                            </rdf:Description>
+                                                                                        </rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/polifonia/ontology/music-projection/hasCadenceType"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/c"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
