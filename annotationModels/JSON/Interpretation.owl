@@ -1,0 +1,58 @@
+[ {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Articulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Attack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Balance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Caesura",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Context",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Dissonance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Dynamics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Figures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Intonation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Meter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Phrasing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Recording",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Rhythm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/SoundRecording",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Tempo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Text",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/interpretation/Timbre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]
