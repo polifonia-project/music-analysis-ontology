@@ -1,0 +1,265 @@
+[ {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Annotation model with concepts requested by Marco Mangani and Daniele Sabaino to annotate text-music relationships"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Aaron",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/CadenceStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/AccentedSyllable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Authentic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TenorAmbitus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Ballata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Cadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/CadenceStructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/CadentialDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Canzone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfClause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfHemistich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfLine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfPhrase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfSentence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfVerse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EndOfWord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/EvadedCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Exordium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Hemistich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Hendecasyllable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/ModalAttribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/NegativeConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Semantics"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/NeutralConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Semantics"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/OttavaRima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Plagal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TenorAmbitus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticMadrigal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PostiveConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Semantics"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/ReachedSonorityInCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/ResolvedTextualMismatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Semantics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Septenary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Sonnet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/SyncopatedDissonance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TenorAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TonalType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/MusicAnalysis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/UnaccentedSyllable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/UnresolvedTextualMismatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/TextMusic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Verse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/PoeticConcepts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Vicentino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/CadenceStructure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/Zarlino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Mangani-Sabaino_TextMusic/CadenceStructure"
+  } ]
+} ]
