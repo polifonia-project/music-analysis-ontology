@@ -1,0 +1,453 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasInversion"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasMorphology"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasNonChordNote"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRomanNumeral"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRoot"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  }, {
+    "@value" : "This ontologies can be applied for labelling chords in common practice harmony (ca. 1630-1900)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Anticipation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/As",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/B",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Chord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/D",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Db",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedTriad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DominantSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/E",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Eb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Es",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/EscapeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/F",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FirstInversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FrenchAugmentedSixth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/G",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/GermanAugmentedSixth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/HalfDiminishedSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/I",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/II",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/III",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/IV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ItalienAugmentedSixth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSixthChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorTriad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorMajorSeventhChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorSixthChord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorTriad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NeighborNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PassingNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PedalPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://data-iremus.huma-num.fr/ns/sherlock#musicAnnotationConcept" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RootPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/SecondInversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Suspension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ThirdInversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVII",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasInversion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasMorphology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasNonChordNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRomanNumeral",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRoot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+} ]
