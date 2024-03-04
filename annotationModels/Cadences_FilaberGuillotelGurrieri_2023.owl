@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#"
-     xml:base="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023"
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/"
+     xml:base="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -42,40 +42,40 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasElaboration -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasElaboration -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasElaboration"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasElaboration"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLine -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLine -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLine">
-        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLine">
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLineFunction -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLineFunction -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLineFunction">
-        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLineFunction">
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStep -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStep -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStep">
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStep">
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStepNotes -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStepNotes -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStepNotes">
-        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStepNotes">
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote"/>
     </owl:ObjectProperty>
     
 
@@ -91,184 +91,10 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Altizans -->
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Altizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Antepenultima -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Antepenultima">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans_P -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans_P">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans"/>
-        <rdfs:label>P</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cadence -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cadence">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLine"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cantizans -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cantizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Continuation -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Continuation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction"/>
-        <rdfs:label>-</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Contratenorizans -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Contratenorizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-        <rdfs:label>L</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Formalis -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Formalis">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cadence"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Interruption -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Interruption">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction"/>
-        <rdfs:label>/</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction">
-        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MainNote -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MainNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasLineFunction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStep"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Penultima -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Penultima">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Reinforcement -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Reinforcement">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#LineFunction"/>
-        <rdfs:label>+</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#SecundaryNote -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#SecundaryNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Simplex -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Simplex">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cadence"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote">
-        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Tenorizans -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Tenorizans">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#MelodicLine"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Ultima -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Ultima">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
     </owl:Class>
     
 
@@ -276,7 +102,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_A">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Altizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans"/>
         <rdfs:label>A</rdfs:label>
     </owl:Class>
     
@@ -285,8 +111,24 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_a -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans_a">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Altizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans"/>
         <rdfs:label>a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Antepenultima -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Antepenultima">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
     </owl:Class>
     
 
@@ -294,8 +136,17 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_B -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_B">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans"/>
         <rdfs:label>B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_P -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_P">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans"/>
+        <rdfs:label>P</rdfs:label>
     </owl:Class>
     
 
@@ -303,8 +154,29 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans_b">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Bassizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Bassizans"/>
         <rdfs:label>b</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLine"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
     </owl:Class>
     
 
@@ -312,7 +184,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_C">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cantizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans"/>
         <rdfs:label>C</rdfs:label>
     </owl:Class>
     
@@ -321,7 +193,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_c -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_c">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cantizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans"/>
         <rdfs:label>c</rdfs:label>
     </owl:Class>
     
@@ -330,8 +202,145 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_ç -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans_ç">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Cantizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cantizans"/>
         <rdfs:label>ç</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Continuation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction"/>
+        <rdfs:label>-</rdfs:label>
+        <rdfs:label>–</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
+        <rdfs:label>L</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans_L -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans_L">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans_P -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans_P">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Contratenorizans"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Interruption -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Interruption">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction"/>
+        <rdfs:label>/</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction">
+        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MainNote -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MainNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasLineFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStep"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Penultima -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Penultima">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Reinforcement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/LineFunction"/>
+        <rdfs:label>+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/SecundaryNote -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/SecundaryNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Simplex -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Simplex">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote">
+        <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/MelodicLine"/>
     </owl:Class>
     
 
@@ -339,7 +348,7 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_T">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Tenorizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans"/>
         <rdfs:label>T</rdfs:label>
     </owl:Class>
     
@@ -348,8 +357,16 @@
     <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_t -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans_t">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#Tenorizans"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Tenorizans"/>
         <rdfs:label>t</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Ultima -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Ultima">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step"/>
     </owl:Class>
     
 
@@ -359,8 +376,8 @@
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/modal-tonal/josquin#Step">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#hasStepNotes"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023#StepNote"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/hasStepNotes"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/StepNote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
