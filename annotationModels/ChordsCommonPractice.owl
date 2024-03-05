@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice#"
-     xml:base="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice"
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice#"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:sherlock="http://data-iremus.huma-num.fr/ns/sherlock#">
-    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice">
-        <rdfs:comment></rdfs:comment>
-        <rdfs:comment>This ontologies can be applied for labelling chords in common practice harmony (ca. 1630-1900)</rdfs:comment>
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This ontologies can be applied for labelling chords in common practice harmony (ca. 1630-1900)</rdfs:comment>
     </owl:Ontology>
     
 
@@ -42,33 +42,33 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasInversion -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasInversion -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasInversion"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasInversion"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasMorphology -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasMorphology -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasMorphology"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasMorphology"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasNonChordNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasNonChordNote -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasNonChordNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasNonChordNote"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRomanNumeral -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRomanNumeral -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRomanNumeral"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRomanNumeral"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRoot -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRoot -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRoot"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRoot"/>
     
 
 
@@ -83,525 +83,533 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/A -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/A">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ab -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ab">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Anticipation -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Anticipation -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Anticipation">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Anticipation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/As -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/As">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSixthChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSixthChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/B -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/B">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bb -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bs -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Bs">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/C -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Chord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/C">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cb -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Chord -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Chord">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Chord">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasInversion"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasInversion"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasMorphology"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasMorphology"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasNonChordNote"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasNonChordNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRomanNumeral"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRomanNumeral"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/hasRoot"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/hasRoot"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cs -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Cs">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/D -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/D">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Db -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DiminishedSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Db">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DiminishedSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DiminishedTriad -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DiminishedTriad">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedTriad -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DominantSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DiminishedTriad">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/DominantSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DominantSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/DominantSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ds -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Ds">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/E -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/EscapeNote -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/E">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/EscapeNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Eb -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Eb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Es -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Es">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/EscapeNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/EscapeNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FirstInversion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/F -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FrenchAugmentedSixth -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/F">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/FrenchAugmentedSixth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSixthChord"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fb -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FirstInversion -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G- -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FirstInversion">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G-">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FrenchAugmentedSixth -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/GermanAugmentedSixth -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/FrenchAugmentedSixth">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/GermanAugmentedSixth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSixthChord"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fs -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/HalfDiminishedSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Fs">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/HalfDiminishedSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/G -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/I -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/G">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/I">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gb -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/II -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gb">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/II">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/GermanAugmentedSixth -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/III -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/GermanAugmentedSixth">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/III">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gs -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/IV -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Gs">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/IV">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/HalfDiminishedSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/HalfDiminishedSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/I -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/I">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/II -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/II">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/III -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/III">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/IV -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/IV">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion -->
-
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion">
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ItalienAugmentedSixth -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/ItalienAugmentedSixth -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ItalienAugmentedSixth">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/AugmentedSixthChord"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/ItalienAugmentedSixth">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/AugmentedSixthChord"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSixthChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorSixthChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorSixthChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorSixthChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorTriad -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MajorTriad">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MajorTriad">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorMajorSeventhChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorMajorSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorMajorSeventhChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorMajorSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorSixthChord -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSeventhChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorSixthChord">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSeventhChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorTriad -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSixthChord -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/MinorTriad">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorSixthChord">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Morphology">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/MinorTriad">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Morphology">
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NeighborNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NeighborNote -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NeighborNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NeighborNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PassingNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/PassingNote -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PassingNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/PassingNote">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PedalPoint -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/PedalPoint -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/PedalPoint">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/PedalPoint">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral">
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Root">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root">
         <sherlock:musicAnnotationConcept rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sherlock:musicAnnotationConcept>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RootPosition -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RootPosition">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RootPosition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/SecondInversion -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/SecondInversion -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/SecondInversion">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/SecondInversion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Suspension -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Suspension -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Suspension">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/NonChordNote"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Suspension">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/NonChordNote"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ThirdInversion -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/ThirdInversion -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/ThirdInversion">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/Inversion"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/ThirdInversion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Inversion"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/V -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/V -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/V">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/V">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VI -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/VI -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VI">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/VI">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VII -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/VII -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/VII">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/VII">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bII -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bII -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bII">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bII">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVI -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bVI -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVI">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bVI">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVII -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bVII -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/bVII">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/analysis/chordsCommonPractice/RomanNumeral"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/bVII">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/RomanNumeral"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/A+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/B+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/C+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/D+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/E+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/F+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G+ -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/G+">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/chordsCommonPractice/Root"/>
     </owl:Class>
 </rdf:RDF>
 
