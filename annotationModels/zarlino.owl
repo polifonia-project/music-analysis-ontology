@@ -21,9 +21,21 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/composedOf -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/composedOf"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasClef"/>
     
 
 
@@ -33,17 +45,15 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasKey -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasKey"/>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/involvesNote">
-        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
     
 
 
@@ -70,28 +80,156 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicA -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicALowerOctave -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicALowerOctave">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicD -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicD">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicA -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicD -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicD">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasDegree"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint"/>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/composedOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CadencePoint">
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicCUpperOctave -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicCUpperOctave">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicF -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicF">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicC -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicF -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicF">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicD -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicD">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicG -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicG">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
     </owl:Class>
     
 
@@ -102,10 +240,104 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicE -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicE">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicA -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicA">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicE -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicE">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicF -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicF">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicBb -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicBb">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicF -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicF">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Finalis"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicC -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicG -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicG">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicC -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicC">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicG -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicG">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
     </owl:Class>
     
 
@@ -131,20 +363,51 @@
                 <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasKey"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
     </owl:Class>
     
 
@@ -165,9 +428,119 @@
     
 
 
-    <!-- https://w3id.org/polifonia/ontology/music-projection/Note -->
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/1_Flat -->
 
-    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/1_Flat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/2_Flat -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/2_Flat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/C1 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/C1">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/C2 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/C2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/C3 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/C3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/C4 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/C4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Clef -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/F2 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/F2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/F3 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/F3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/F4 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/F4">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/F5 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/F5">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/G2 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/G2">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/G3 -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/G3">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Key -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-projection/Natural -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Natural">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+    </owl:Class>
 </rdf:RDF>
 
 
