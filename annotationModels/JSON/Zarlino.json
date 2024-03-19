@@ -137,6 +137,12 @@
     "@id" : "_:genid1"
   } ]
 }, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/AuthenticAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
+  } ]
+}, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -206,6 +212,12 @@
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiminishedAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
+  } ]
+}, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -228,6 +240,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/ExpandedAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb",
@@ -281,6 +299,12 @@
     "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"
   } ]
 }, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/IrregularCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"
+  } ]
+}, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -301,6 +325,24 @@
     "@id" : "_:genid8"
   }, {
     "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PlagalAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularAmbitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/RegularCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote",
