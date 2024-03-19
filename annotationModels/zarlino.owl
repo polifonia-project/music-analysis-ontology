@@ -203,7 +203,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
