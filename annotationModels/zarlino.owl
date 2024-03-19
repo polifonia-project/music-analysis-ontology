@@ -53,7 +53,10 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+    </owl:ObjectProperty>
     
 
 

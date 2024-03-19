@@ -10,11 +10,11 @@
 }, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"
-  } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"
   } ]
 }, {
   "@id" : "_:genid3",
@@ -382,7 +382,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"
+  } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/isDefinedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
