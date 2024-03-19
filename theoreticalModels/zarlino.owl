@@ -178,6 +178,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasHighestPitch -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasHighestPitch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
     </owl:ObjectProperty>
@@ -206,6 +207,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasLowestPitch -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasLowestPitch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
     </owl:ObjectProperty>
@@ -254,7 +256,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote">
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence"/>
-        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
     </owl:ObjectProperty>
     
 
@@ -349,6 +351,12 @@
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Cadence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/TargetNote"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>Cadence</rdfs:label>
     </owl:Class>
     
@@ -654,33 +662,25 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicA -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicA">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicA"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicALowerOctave -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicALowerOctave">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModeAuthenticPolyphonicALowerOctave"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicA -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicA">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicA"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicD -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicD">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/AModePlagalPolyphonicD"/>
     
 
 
@@ -711,41 +711,31 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicCUpperOctave -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicCUpperOctave">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicCUpperOctave"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicF -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicF">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicF"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicC -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicC">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicC"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicF -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicF">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModePlagalPolyphonicF"/>
     
 
 
@@ -759,25 +749,19 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicD -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicD">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicD"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicG -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicG">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicG"/>
     
 
 
@@ -792,33 +776,25 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicA"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicE -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicE">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModeAuthenticPolyphonicE"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicA -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicA">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicA"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicE -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicE">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/EModePlagalPolyphonicE"/>
     
 
 
@@ -833,33 +809,25 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicBb"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicF -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicF">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModeAuthenticPolyphonicF"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicBb -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicBb">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicBb"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicF -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicF">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/FModePlagalPolyphonicF"/>
     
 
 
@@ -874,33 +842,25 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicC -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicC">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicC"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicG -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicG">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModeAuthenticPolyphonicG"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicC -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicC">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicC"/>
     
 
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicG -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicG">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/GModePlagalPolyphonicG"/>
     
 
 
