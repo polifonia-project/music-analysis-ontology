@@ -8,6 +8,15 @@
     "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"
   } ]
 }, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasPartType"
+  } ]
+}, {
   "@id" : "_:genid2",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
@@ -128,7 +137,7 @@
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus",
@@ -146,7 +155,7 @@
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/CModeAuthenticPolyphonicC",
@@ -188,7 +197,7 @@
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModeAuthenticPolyphonicC",
@@ -317,6 +326,9 @@
     "@id" : "_:genid6"
   } ]
 }, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Other",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType" ]
+}, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -325,7 +337,12 @@
     "@id" : "_:genid8"
   }, {
     "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
   } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PlagalAmbitus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -351,7 +368,7 @@
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed",
@@ -380,6 +397,15 @@
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasKey",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasPartType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"
+  } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],

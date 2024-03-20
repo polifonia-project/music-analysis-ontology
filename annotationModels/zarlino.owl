@@ -51,6 +51,16 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasPartType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasPartType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasTargetNote">
@@ -126,7 +136,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     </owl:Class>
     
 
@@ -155,7 +165,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     </owl:Class>
     
 
@@ -216,7 +226,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     </owl:Class>
     
 
@@ -429,7 +439,19 @@
                 <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasPartType"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     
 
 
@@ -466,7 +488,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     </owl:Class>
     
 
@@ -600,6 +622,25 @@
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-projection/Natural">
         <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Other -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Other">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
