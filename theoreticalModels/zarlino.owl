@@ -130,6 +130,7 @@
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/hasAmbitus">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isAmbitusOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
@@ -286,6 +287,16 @@
         <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/NoteInMode"/>
         <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
         <rdfs:label>involves note</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/isAmbitusOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/isAmbitusOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Part"/>
     </owl:ObjectProperty>
     
 
@@ -1004,10 +1015,10 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-projection/Bb"/>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
 </rdf:RDF>
 
