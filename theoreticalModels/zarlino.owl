@@ -333,6 +333,14 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Ambitus">
@@ -357,6 +365,14 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cadence">
@@ -368,6 +384,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Cadence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
     </owl:Class>
     
 
@@ -629,6 +653,14 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed -->
 
     <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Transposed">
@@ -702,9 +734,7 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Altus"/>
     
 
 
@@ -719,9 +749,7 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Bassus"/>
     
 
 
@@ -757,9 +785,7 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Cantus"/>
     
 
 
@@ -954,9 +980,7 @@
 
     <!-- https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor -->
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor">
-        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/zarlino/PartType"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/zarlino/Tenor"/>
     
 
 
@@ -980,10 +1004,10 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-projection/Bb"/>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
 </rdf:RDF>
 
