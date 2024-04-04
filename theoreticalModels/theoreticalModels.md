@@ -17,7 +17,7 @@ keywords:
 licence:
   - CC BY-NC-SA 4.0
 resource:
-  - ""
+  - "https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels"
 credits:
   - Thomas Bottini  (IReMus)
   - Christophe Guillotel-Nothmann (IReMus)
