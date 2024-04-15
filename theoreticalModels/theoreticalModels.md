@@ -19,7 +19,7 @@ licence:
 resource:
   - "https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels"
 credits:
-  - Christophe Guillotel-Nothmann (IReMus) [d'Alembert, Choclaeus, Powers, Praetorius, Zarlino] 
+  - Christophe Guillotel-Nothmann (IReMus) [d'Alembert, Cochlaeus, Powers, Praetorius, Zarlino] 
   - Marco Gurrieri (IReMus) [Zarlino]
   - Nicolas Lazzari (Università degli Studi di Bologna) [Zarlino]
 related-components: []
