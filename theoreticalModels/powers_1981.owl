@@ -342,10 +342,154 @@
     
 
 
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-A">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-C">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-D">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-c1-G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-A">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-Bb -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-Bb">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-C">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b-g2-F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h -->
 
     <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h">
         <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/System"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-A">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-C">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-D">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-c1-G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-A">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-C">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-E">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h-g2-F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
