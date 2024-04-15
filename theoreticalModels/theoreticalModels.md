@@ -6,7 +6,7 @@ type: Ontology
 release-date: 03/23
 release-number: "2.0"
 work-package:
-  - WP1
+  - WP2
 pilot:
   - TONALITIES
 keywords:
@@ -19,9 +19,10 @@ licence:
 resource:
   - "https://github.com/polifonia-project/music-analysis-ontology/tree/main/theoreticalModels"
 credits:
-  - Thomas Bottini  (IReMus)
-  - Christophe Guillotel-Nothmann (IReMus)
-  - Marco Gurrieri (IReMus)
+  - Christophe Guillotel-Nothmann (IReMus) [d'Alembert, Choclaeus, Powers, Praetorius, Zarlino] 
+  - Marco Gurrieri (IReMus) [Zarlino]
+  - Nicolas Lazzari (Università degli Studi di Bologna) [Zarlino]
+  - et al.
 related-components: []
 bibliography:
   - main-publication: "Thomas Bottini, Christophe Guillotel-Nothmann, Marco Gurrieri, Félix Poullet-Pagès. Tonalities: a Collaborative Annotation Interface for Music Analysis. Musical Heritage Knowledge Graphs workshop during the 22nd International Semantic Web Conference 2022, Oct 2022, Hangzhou, China. ⟨hal-03923731⟩"
