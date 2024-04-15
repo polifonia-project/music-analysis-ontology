@@ -6,11 +6,16 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius">
-        <dc:author>Ceulemans, Anne-Emmanuelle</dc:author>
-        <dc:author>Guillotel-Nothmann, Christophe</dc:author>
-        <rdfs:comment>Based on Praetorius 1619_III and Praetorius 1612</rdfs:comment>
+        <terms:creator>Ceulemans, Anne-Emmanuelle</terms:creator>
+        <terms:creator>Guillotel-Nothmann, Christophe</terms:creator>
+        <terms:description>Based on Praetorius 1619_III and Praetorius 1612</terms:description>
+        <terms:description>This ontology models the modal theory described by Michael Praetorius (1612 and 1619). This theory stands out from earlier descriptions by a substantial extension of the modal transpositions, which have risen from 15 in Zarlino to 27. This extension, together with the stronger focus on the outer voices (cantus-bassus) rather than on the cantus-tenor pair for modal identification, provides an important perspective on the tonal organization of polyphonic works composed in the second half of the 17th century.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</terms:issued>
+        <terms:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</terms:license>
+        <terms:title>Praetorius 1619 ontology</terms:title>
         <rdfs:comment>References are made to 1619_III by default unless stated otherwise</rdfs:comment>
     </owl:Ontology>
     
@@ -36,6 +41,42 @@
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
