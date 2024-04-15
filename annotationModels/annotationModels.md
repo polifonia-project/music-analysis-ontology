@@ -6,7 +6,7 @@ type: Ontology
 release-date: 03/24
 release-number: "2.0"
 work-package:
-  - WP1
+  - WP2
 pilot:
   - TONALITIES
 keywords:
