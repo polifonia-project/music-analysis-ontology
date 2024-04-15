@@ -1,0 +1,1015 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/">
+        <dc:creator>Christophe Guillotel-Nothmann (CNRS, IReMus, UMR 8223)</dc:creator>
+        <dc:issued>2024-04-15</dc:issued>
+        <dc:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</dc:license>
+        <terms:description>Jean Le Rond d’Alembert provides a condensed version of the theories presented by Jean-Philippe Rameau in his Traité de l’harmonie of 1721 and subsequent works. The modelling focuses on the concepts of scale, fundamental bass, harmonic functions and mode. It reflects a tonal conception based on the modern distinction between major and minor modes, transposed onto the 12 equal tempered degrees of the chromatic scale. The model provides a way to classify works of the common practice based on a historically situated conceptual
+framework</terms:description>
+        <terms:title>d&apos;Alembert 1552 ontology</terms:title>
+        <owl:versionInfo>initial version 2024-04-15</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/generates -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/generates">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Harmonics"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAdjointMode -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAdjointMode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAlteration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAlteration">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/PitchClass"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasFunction -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasFunction">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasGenerator -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasGenerator">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasIntervalFromGenerator -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasIntervalFromGenerator">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasKey -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasKey">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitch -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitch">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitchClass -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitchClass">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/PitchClass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasTetrachord -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasTetrachord">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/involvesInterval -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/involvesInterval">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDerivedFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Trembling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDisjointTetrachord -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDisjointTetrachord">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isJointTetrachord -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isJointTetrachord">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isOfGenre -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isOfGenre">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isPhenomenonOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isPhenomenonOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Trembling"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SoundingBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isRepresentedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isRepresentedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isTranspositionOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isTranspositionOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/materializedThrough -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/materializedThrough">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Harmonics"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasIntervalFromGenerator"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitchClass"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/PitchClass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/generates"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Harmonics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitch"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/materializedThrough"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Harmonics -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Harmonics">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/materializedThrough"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Interval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Interval"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDerivedFrom"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDerivedFrom"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Trembling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAdjointMode"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasFunction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasGenerator"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Generator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasKey"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isOfGenre"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isRepresentedBy"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isTranspositionOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Mode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/PitchClass -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/PitchClass">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasAlteration"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Resonance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isPhenomenonOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SoundingBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/generates"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/involvesInterval"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitch"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasTetrachord"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SoundingBody -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SoundingBody"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/hasPitch"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Pitch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isDisjointTetrachord"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isJointTetrachord"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tetrachord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Trembling -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Trembling">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/isPhenomenonOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SoundingBody"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ChromaticGenre -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ChromaticGenre">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicGenre -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicGenre">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Dominant -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Dominant">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/EnharmonicGenre -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/EnharmonicGenre">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/DiatonicChromaticEnharmonicGenre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaDMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaDMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/FaMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/GreekScale_si_ut-ré_mi-fa_sol_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/GreekScale_si_ut-ré_mi-fa_sol_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LaMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LabMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/LabMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MiMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MibMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MibMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScaleAscending_la_si_ut_ré_mi_mi_faD_solD_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScaleAscending_la_si_ut_ré_mi_mi_faD_solD_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScaleDescending_la_fa_mi_ré_ut_si_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScaleDescending_la_fa_mi_ré_ut_si_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScale_solD_la_si_ut_ré_mi_fa -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorScale_solD_la_si_ut_ré_mi_fa">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ModernMajorScale_ut_ré_mi_fa_sol_sol_la_si_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ModernMajorScale_ut_ré_mi_fa_sol_sol_la_si_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Scale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ReDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/ReDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_fa_ut_sol -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_fa_ut_sol">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_la_mi_la_ré_la_mi_si_mi_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_la_mi_la_ré_la_mi_si_mi_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_la_ré_la_ré_la_mi_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_la_ré_la_ré_la_mi_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_mi_la_mi_la_ré_la_ré -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_mi_la_mi_la_ré_la_ré">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_sol_ut_sol_ut_fa_ut_fa -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_sol_ut_sol_ut_fa_ut_fa">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_ut_sol_ut_fa_ut_sol_ré_sol_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion_ut_sol_ut_fa_ut_sol_ré_sol_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RootMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RéMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RéMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RéMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/RéMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SiMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SiMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SiMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SiMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SibMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SibMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/SolMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Subdominant -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Subdominant">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tonic -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Tonic">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtDMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtDMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtDMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtDMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtMajorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtMajorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MajorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtMinorMode -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/UtMinorMode">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/MinorMode"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/flat -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/flat">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/sharp -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/sharp">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Alteration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/1_flat -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/1_flat">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/1_sharp -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/1_sharp">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/2_flats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/2_flats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/2_sharps -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/2_sharps">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/3_flats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/3_flats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/3_sharps -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/3_sharps">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/4_flats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/4_flats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/4_sharps -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/4_sharps">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/5_flats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/5_flats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/5_sharps -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/5_sharps">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/6_flats -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/6_flats">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/6_sharps -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/6_sharps">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/Key"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
