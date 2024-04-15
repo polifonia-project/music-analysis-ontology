@@ -16,7 +16,7 @@
         <ns:licence rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by-nc-sa/4.0/</ns:licence>
         <dc:issued>2024-04-15</dc:issued>
         <terms:creator>Christophe Guillotel-Nothmann (CNRS, IReMus, UMR 8223)</terms:creator>
-        <terms:description>This ontology models Harold Power&apos;s Tonal Types as described in Powers, Harold, &quot;Tonal Types and Modal Categories in Renaissance Polyphony&quot;, Journal of the American Musicological Society , Autumn, 1981, Vol. 34, No. 3 (Autumn, 1981), pp. 428-470</terms:description>
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">This ontology models Harold Power&apos;s Tonal Types as described in Powers, Harold, &quot;Tonal Types and Modal Categories in Renaissance Polyphony&quot;, Journal of the American Musicological Society , Autumn, 1981, Vol. 34, No. 3 (Autumn, 1981), pp. 428-470</terms:description>
         <terms:title>Tonal type ontology</terms:title>
         <owl:versionInfo>Initial version 15/04/2024</owl:versionInfo>
     </owl:Ontology>
