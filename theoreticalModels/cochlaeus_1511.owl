@@ -1,0 +1,1286 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/">
+        <terms:creator>Christophe Guillotel-Nothmann (CNRS, IReMus, UMR 8223)</terms:creator>
+        <terms:description>This ontology models Johannes Cochlaeus’ (1511) elementary musical theory, including the definition of concepts relating to the diatonic system (scala, vox, clavis, littera, etc.) and musical modes (tonus, finalis, confinalis, ambitus, etc.). The model lets coexist octacordal modularity based on octave equivalence, alongside hexachordal modularity derived from the practice of solmisation. This dual perspective is key for charting the conceptual background that underpins musical works of the 15th and 16th centuries.</terms:description>
+        <terms:issued>2024-04-15</terms:issued>
+        <terms:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</terms:license>
+        <terms:title>Cochlaeus 1511 ontology</terms:title>
+        <owl:versionInfo>Initial version 2024-04-15</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://creativecommons.org/ns#licence -->
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#licence"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasAmbitus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasAmbitus">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasCharacteristicClavis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasCharacteristicClavis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasClavis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasClavis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis_t -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis_t">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDeductio -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDeductio">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Scala"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDifferentia -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDifferentia">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Differentia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFinalis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiapente -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiapente">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiapente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiatessaron -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiatessaron">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiatessaron"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasHexachord -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasHexachord">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIniciaPrincipia -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIniciaPrincipia">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalAboveFinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalAboveFinalis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalBelowFinalis -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalBelowFinalis">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLittera -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLittera">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLowerNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLowerNote">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiapente"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctave -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctave">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveSpelling"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveDivision -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveDivision">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveRegister -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveRegister">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveRegister"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasProprietas -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasProprietas">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasQualitas -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasQualitas">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasTetrachordRegister -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasTetrachordRegister">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasUpperNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasUpperNote">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiatessaron"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVeraFictaStatus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVeraFictaStatus">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVox -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVox">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isDerivedFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isLocatedInTetrachordRegister -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isLocatedInTetrachordRegister">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/requiresCantus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/requiresCantus">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalAboveFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIntervalBelowFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveDivision"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasHexachord"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLittera"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVox"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isLocatedInTetrachordRegister"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isDerivedFrom"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasClavis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasProprietas"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Differentia -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Differentia"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isLocatedInTetrachordRegister"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiapente -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiapente">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasLowerNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiatessaron -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiatessaron">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasUpperNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasProprietas"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Interval"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctave"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveSpelling"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveRegister -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveRegister"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveSpelling -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveSpelling"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Scala -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Scala">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDeductio"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Deductio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/isDerivedFrom"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Systema">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasClavis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasOctaveRegister"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveRegister"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasTetrachordRegister"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/TetrachordRegister"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Tonus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasCharacteristicClavis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasConfinalis_t"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasDifferentia"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Differentia"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFinalis"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiapente"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiapente"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasFormulaDiatessaron"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/FormulaDiatessaron"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasIniciaPrincipia"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Clavis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/requiresCantus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasQualitas"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hasVeraFictaStatus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/A -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/A">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/B -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/B">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/C -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/C">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/D">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Durum_ut_re_mi_fa_sol_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Durum_ut_re_mi_fa_sol_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/E">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Littera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Molle_ut_re_mi_fa_sol_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Molle_ut_re_mi_fa_sol_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Naturale_ut_re_mi_fa_sol_la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Naturale_ut_re_mi_fa_sol_la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Hexachord"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/arithmetic -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/arithmetic">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/authentus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/authentus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/b_molle -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/b_molle">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_a_la_mi_re -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_a_la_mi_re">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_b_mi -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_b_mi">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_c_sol_fa_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_c_sol_fa_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_G_sol_re_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_G_sol_re_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_a_la_mi_re -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_a_la_mi_re">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_b_fa_h_mi -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_b_fa_h_mi">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_c_sol_fa_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/confinalis_t_c_sol_fa_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Confinalis_Transpositio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/deuterus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/deuterus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dorius_D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dorius_D">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dorius_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dorius_G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/double -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/double">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveSpelling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dures -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/dures">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/durus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/durus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/fa -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/fa">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/ficta -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/ficta">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/fictus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/fictus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_D_sol_re -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_D_sol_re">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_E_la_mi -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_E_la_mi">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_F_fa_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_F_fa_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_G_sol_re_ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/finalis_G_sol_re_ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Finalis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/greek -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/greek"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/h_dura -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/h_dura">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/harmonic -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/harmonic">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/OctaveDivision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypodorius_D -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypodorius_D">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypodorius_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypodorius_G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypolydius_F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypolydius_F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypolydius_b -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypolydius_b">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypomixolydius_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypomixolydius_G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypomixolydius_c -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypomixolydius_c">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypophrygius_E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypophrygius_E">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypophrygius_a -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/hypophrygius_a">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/la -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/la">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lowerCase -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lowerCase"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lydius_F -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lydius_F">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lydius_b -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/lydius_b">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mi -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mi">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mixolydius_G -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mixolydius_G">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mixolydius_c -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mixolydius_c">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/molles -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/molles">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mollis -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/mollis">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Cantus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/natura -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/natura">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Proprietas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/naturales -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/naturales">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Qualitas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/phrygius_E -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/phrygius_E">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/phrygius_a -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/phrygius_a">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/CurrentModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/plagalis -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/plagalis">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Ambitus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/proteus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/proteus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/re -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/re">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/scalaFicta -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/scalaFicta">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Scala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/scalaVera -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/scalaVera">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Scala"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/sol -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/sol">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/tetrardus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/tetrardus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/tritus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/tritus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/GreekModes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/upperCase -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/upperCase"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/ut -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/ut">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/Vox"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/vera -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/vera">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/VeraFictaStatus"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
