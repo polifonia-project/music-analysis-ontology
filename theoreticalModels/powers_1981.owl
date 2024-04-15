@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/polifonia/ontology/music-analysis/powers/"
+     xml:base="https://w3id.org/polifonia/ontology/music-analysis/powers/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/">
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/music-projection"/>
+        <ns:licence rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://creativecommons.org/licenses/by-nc-sa/4.0/</ns:licence>
+        <dc:issued>2024-04-15</dc:issued>
+        <terms:creator>Christophe Guillotel-Nothmann (CNRS, IReMus, UMR 8223)</terms:creator>
+        <terms:description>This ontology models Harold Power&apos;s Tonal Types as described in Powers, Harold, &quot;Tonal Types and Modal Categories in Renaissance Polyphony&quot;, Journal of the American Musicological Society , Autumn, 1981, Vol. 34, No. 3 (Autumn, 1981), pp. 428-470</terms:description>
+        <terms:title>Tonal type ontology</terms:title>
+        <owl:versionInfo>Initial version 15/04/2024</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/altusHasClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/altusHasClef">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/bassusHasClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/bassusHasClef">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/cantusHasClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/cantusHasClef">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/hasAmbitus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/hasAmbitus">
+        <owl:inverseOf rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/isAmbitusOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Part"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/hasHighestNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/hasHighestNote">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/hasKey -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/hasKey">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Part"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/hasLowestNote -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/hasLowestNote">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/hasPartType -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/hasPartType"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/isAmbitusOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/isAmbitusOf">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByClef"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByFinal -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByFinal">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedBySystem -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedBySystem">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/tenorHasClef -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/tenorHasClef">
+        <rdfs:domain rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+        <rdfs:range rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Ambitus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/hasHighestNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/hasLowestNote"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/isAmbitusOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/Part"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/altusHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/bassusHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/cantusHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/tenorHasClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Part -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Part">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/hasAmbitus"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Ambitus"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/hasKey"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Key"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/hasPartType"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/PartType -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/System -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/System"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/TonalType">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByClef"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Clef"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedByFinal"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-projection/Note"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/isRepresentedBySystem"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Altus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Altus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Bassus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Bassus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Cantus -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Cantus">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/HighClefs -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/HighClefs">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/LowClefs -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/LowClefs">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/ClefCombination"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/Tenor -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/Tenor">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/PartType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/b -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/b"/>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/music-analysis/powers/h -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/polifonia/ontology/music-analysis/powers/h">
+        <rdf:type rdf:resource="https://w3id.org/polifonia/ontology/music-analysis/powers/System"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
