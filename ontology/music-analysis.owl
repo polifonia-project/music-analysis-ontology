@@ -6,12 +6,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://w3id.org/polifonia/ontology/music-analysis/">
+    <Prefix name="" IRI="https://w3id.org/polifonia/ontology/music-analysis/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Praetorius</Import>
     <Import>https://raw.githubusercontent.com/polifonia-project/music-analysis-ontology/main/theoreticalModels/zarlino.owl</Import>
+    <Import>https://w3id.org/polifonia/ontology/music-analysis/zarlino</Import>
+    <Import>https://w3id.org/polifonia/ontology/music-analysis/cochlaeus_1551/</Import>
+    <Import>https://w3id.org/polifonia/ontology/music-analysis/d&apos;alembert_1752/</Import>
+    <Import>https://w3id.org/polifonia/ontology/music-analysis/powers/</Import>
 </Ontology>
 
 
