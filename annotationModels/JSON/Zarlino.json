@@ -218,6 +218,18 @@
     "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"
   } ]
 }, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModePlagalPolyphonicD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DModePlagalPolyphonicG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/Mode"
+  } ]
+}, {
   "@id" : "https://w3id.org/polifonia/ontology/music-analysis/zarlino/DiatonicSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
