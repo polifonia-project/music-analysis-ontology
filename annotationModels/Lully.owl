@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences#"
+     xml:base="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences">
+        <owl:versionInfo>État 25/06/2024 à partir des catégories de JNL et CGN</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Alto -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Alto">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AnteAntePenultima -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AnteAntePenultima">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AntePenultima -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AntePenultima">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_3 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_3">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_5 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_5">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_8 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_8">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Bass -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Bass">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Basse -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Basse">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence"/>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Dessus -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Dessus">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Diminution -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Diminution">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/EscapeNote_6 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/EscapeNote_6">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"/>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/ImperfectCadence -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/ImperfectCadence">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"/>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Penultima -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Penultima">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/PhyrgianCadence -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/PhyrgianCadence">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Soprano -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Soprano">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_2 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_2">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_3 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_3">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_4 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_4">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_5 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_5">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_6 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_6">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_7 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_7">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Suspension_8-7 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Suspension_8-7">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Tenor -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Tenor">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Ultima -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Ultima">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
