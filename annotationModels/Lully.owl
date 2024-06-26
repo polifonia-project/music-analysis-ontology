@@ -137,6 +137,12 @@
     
 
 
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    
+
+
     <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part -->
 
     <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"/>
@@ -241,6 +247,62 @@
 
     <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Ultima">
         <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/1 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/1">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/2 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/2">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/3 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/3">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/4 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/4">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/5 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/5">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/6 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/6">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/7 -->
+
+    <owl:Class rdf:about="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/7">
+        <rdfs:subClassOf rdf:resource="https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"/>
     </owl:Class>
 </rdf:RDF>
 

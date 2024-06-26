@@ -1,0 +1,211 @@
+[ {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "État 25/06/2024 à partir des catégories de JNL et CGN"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Alto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AnteAntePenultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/AntePenultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Anticipation_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Bass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Basse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Dessus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Diminution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/EscapeNote_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/ImperfectCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/MelodicDegree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Penultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/PhyrgianCadence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Cadence"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Soprano",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Substitution_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Suspension_8-7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Elaboration"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Tenor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Formula"
+  } ]
+}, {
+  "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Ultima",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://data-iremus.huma-num.fr/tonalities/ontologies/lullyCadences/Position"
+  } ]
+} ]
