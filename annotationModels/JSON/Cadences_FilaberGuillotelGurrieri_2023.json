@@ -46,9 +46,8 @@
   }, {
     "@language" : "en",
     "@value" : "This model defines the annotation classes used in Tonalities to analyse cadences in 15th and 16th century polyphony."
-  } ],
-  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "27/02/2024:  Added specific classes for plagal and regular contratenoirzans mouvements"
+  }, {
+    "@value" : "Update 01-2026: add classes for Formalis_T and Formalis_A, e.g. tenor 7-6 and altus 4-3 suspensions."
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Altizans",
@@ -189,6 +188,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Cadence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis"
+  } ]
+}, {
+  "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis_T",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Formalis"
   } ]
 }, {
   "@id" : "https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/Interruption",
